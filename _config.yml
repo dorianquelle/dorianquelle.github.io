@@ -104,11 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Dorian Quelle"
+  avatar           : "/assets/images/DorianQuelle.png"
+  bio: "Currently pursuing my PhD in Quantitative Network Science at UZH's Department of Mathematics and a member of the Digital Society Initiative. My research builds on my thesis at the Oxford Internet Institute, focusing on the evolution of misinformation across languages. In addition to my academic pursuits, I work as a Data Scientist focusing on countering disinformation at Pattrn.Ai."
+  location         : "Zürich, Switherland"
+  email            : "dorian.quelle@math.uzh.ch"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
