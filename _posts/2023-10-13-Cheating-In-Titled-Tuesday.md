@@ -42,18 +42,62 @@ The analysis is based on data collected from all early and late Titled Tuesday t
 Table 1 presents the number of games played by selected players throughout the year. GM Sergei Zhigalko and IM Nikolai Vlassov are in a deadlock for the top spot, each having participated in 756 games. GM Hikaru Nakamura leads among the well-known players, ranking 21st with 579 games, while IM Eric Rosen and GM Magnus Carlsen have played notably fewer games, at 334 and 289 respectively.
 
 <div align="center">
-
-|    **Player**   | **Games** | **Full Name** |**Rank** |
-|:---------------:|:---------:|:--------:|:--------:|
-| Zhigalko_Sergei |    756    |     GM Sergei Zhigalko   |     1    |
-|   bazar-wokzal  |    756    |     IM Nikolai Vlassov    |     1    | 
-| Mikhail_Golubev |    672    |     GM Mikhail Golubev    |     3   |
-|      Hikaru     |    579    |    GM Hikaru Nakamura    |   21    |
-|     IMRosen     |    334    |    IM Eric Rosen   |  134    |
-|  MagnusCarlsen  |    289    |    GM Magnus Carlsen   |  208    |
-|   GothamChess   |    185    |    IM Levy Rozman   |   406    |
-|  AlexandraBotez |     54    |   WFM Alexandra Botez   |   1391   |
-
+  <table border="1">
+    <tr>
+      <th>Player</th>
+      <th>Games</th>
+      <th>Full Name</th>
+      <th>Rank</th>
+    </tr>
+    <tr>
+      <td>Zhigalko_Sergei</td>
+      <td>756</td>
+      <td>GM Sergei Zhigalko</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>bazar-wokzal</td>
+      <td>756</td>
+      <td>IM Nikolai Vlassov</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Mikhail_Golubev</td>
+      <td>672</td>
+      <td>GM Mikhail Golubev</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Hikaru</td>
+      <td>579</td>
+      <td>GM Hikaru Nakamura</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>IMRosen</td>
+      <td>334</td>
+      <td>IM Eric Rosen</td>
+      <td>134</td>
+    </tr>
+    <tr>
+      <td>MagnusCarlsen</td>
+      <td>289</td>
+      <td>GM Magnus Carlsen</td>
+      <td>208</td>
+    </tr>
+    <tr>
+      <td>GothamChess</td>
+      <td>185</td>
+      <td>IM Levy Rozman</td>
+      <td>406</td>
+    </tr>
+    <tr>
+      <td>AlexandraBotez</td>
+      <td>54</td>
+      <td>WFM Alexandra Botez</td>
+      <td>1391</td>
+    </tr>
+  </table>
 </div>
 
 ## Peformance Metrics
@@ -61,40 +105,130 @@ Table 1 presents the number of games played by selected players throughout the y
 Similarly, we can look at the players with the highest draw rate and best average game results!
 
 <div align="center">
-<table>
-<tr><td>
-
-| **Player**            | **Full Name**            | **Average Result** |
-|:--------------------:|:-----------------------:|:-------------:|
-| howitzer14        | GM David Howell         | 90.71%      |
-| MagnusCarlsen     | GM Magnus Carlsen       | 80.97%      |
-| nihalsarin        | GM Nihal Sarin          | 80.65%      |
-| Hikaru            | GM Hikaru Nakamura      | 79.97%      |
-| lachesisQ         | GM Ian Nepomniachtchi   | 78.49%      |
-| Firouzja2003      | GM Alireza Firouzja     | 77.69%      |
-| GMWSO             | GM Wesley So            | 77.60%      |
-| RaunakSadhwani2005| GM Raunak Sadhwani      | 77.56%      |
-| LyonBeast         | GM Maxime Vachier-Lagrave| 77.50%     |
-| FabianoCaruana    | GM Fabiano Caruana      | 76.86%      |
-
-</td><td>
-
-|     **Player**       |     **Full Name**     | **Draw Rate** |
-|:-----------------:|:-----------------:|:-----------:|
-|    Schattman      |         FM Florian Gatterer     |   31.60%    |
-|    BahadirOzen    |         IM BahadirOzen         |   27.32%    |
-|    Viacheslav92   |         FM Malyi Viacheslav        |   25.00%    |
-|   avinashramesh4  |         IM ?         |   24.53%    |
-|     GMRafpig      |         GM Rafael Leitao         |   23.47%    |
-| DanielNaroditsky  | GM Daniel Naroditsky |   22.91%    |
-|    Coachpoker     |         IM ?         |   22.74%    |
-|    Goryachkina    |  GM Aleksandra Goryachkina | 22.48%  |
-|    Godzillator    |         FM ?         |   22.34%    |
-|   TigrVShlyape    |         GM Gata Kamsky        |   22.31%    |
-
-</td></tr> </table>
-
+  <table border="1">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <th>Player</th>
+            <th>Full Name</th>
+            <th>Average Result</th>
+          </tr>
+          <tr>
+            <td>howitzer14</td>
+            <td>GM David Howell</td>
+            <td>90.71%</td>
+          </tr>
+          <tr>
+            <td>MagnusCarlsen</td>
+            <td>GM Magnus Carlsen</td>
+            <td>80.97%</td>
+          </tr>
+          <tr>
+            <td>nihalsarin</td>
+            <td>GM Nihal Sarin</td>
+            <td>80.65%</td>
+          </tr>
+          <tr>
+            <td>Hikaru</td>
+            <td>GM Hikaru Nakamura</td>
+            <td>79.97%</td>
+          </tr>
+          <tr>
+            <td>lachesisQ</td>
+            <td>GM Ian Nepomniachtchi</td>
+            <td>78.49%</td>
+          </tr>
+          <tr>
+            <td>Firouzja2003</td>
+            <td>GM Alireza Firouzja</td>
+            <td>77.69%</td>
+          </tr>
+          <tr>
+            <td>GMWSO</td>
+            <td>GM Wesley So</td>
+            <td>77.60%</td>
+          </tr>
+          <tr>
+            <td>RaunakSadhwani2005</td>
+            <td>GM Raunak Sadhwani</td>
+            <td>77.56%</td>
+          </tr>
+          <tr>
+            <td>LyonBeast</td>
+            <td>GM Maxime Vachier-Lagrave</td>
+            <td>77.50%</td>
+          </tr>
+          <tr>
+            <td>FabianoCaruana</td>
+            <td>GM Fabiano Caruana</td>
+            <td>76.86%</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <th>Player</th>
+            <th>Full Name</th>
+            <th>Draw Rate</th>
+          </tr>
+          <tr>
+            <td>Schattman</td>
+            <td>FM Florian Gatterer</td>
+            <td>31.60%</td>
+          </tr>
+          <tr>
+            <td>BahadirOzen</td>
+            <td>IM BahadirOzen</td>
+            <td>27.32%</td>
+          </tr>
+          <tr>
+            <td>Viacheslav92</td>
+            <td>FM Malyi Viacheslav</td>
+            <td>25.00%</td>
+          </tr>
+          <tr>
+            <td>avinashramesh4</td>
+            <td>IM ?</td>
+            <td>24.53%</td>
+          </tr>
+          <tr>
+            <td>GMRafpig</td>
+            <td>GM Rafael Leitao</td>
+            <td>23.47%</td>
+          </tr>
+          <tr>
+            <td>DanielNaroditsky</td>
+            <td>GM Daniel Naroditsky</td>
+            <td>22.91%</td>
+          </tr>
+          <tr>
+            <td>Coachpoker</td>
+            <td>IM ?</td>
+            <td>22.74%</td>
+          </tr>
+          <tr>
+            <td>Goryachkina</td>
+            <td>GM Aleksandra Goryachkina</td>
+            <td>22.48%</td>
+          </tr>
+          <tr>
+            <td>Godzillator</td>
+            <td>FM ?</td>
+            <td>22.34%</td>
+          </tr>
+          <tr>
+            <td>TigrVShlyape</td>
+            <td>GM Gata Kamsky</td>
+            <td>22.31%</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 </div>
+
 
 Table 2 highlights the players with the highest average performance, measured as the mean of game outcomes where a win is scored as 1, a draw as 0.5, and a loss as 0. Among the high-performing players, familiar names like Magnus Carlsen, Hikaru Nakamura, and Fabiano Caruana are not surprising. Nihal Sarin, a young prodigy born in 2004, performs impressively, outscoring several top-10 players. Yet, the standout performer is David Howell, with an average score of 0.9071. Despite his tendency to withdraw or join late to tournaments, this strategy seems to benefit him as he avoids facing high-performing players in later rounds. With a record of 120 wins, 14 draws, and only 6 losses, Howell clearly dominates the field.
 
@@ -110,7 +244,8 @@ While access to third-party APIs for opening statistics is a common practice, we
 
 For instance, we can examine the frequency of various moves in popular openings like the London System:
 
-```python
+<div align="center">
+  <pre><code>
 london = [{"from":"d2", "to":"d4"},
           {"from": "d7", "to":"d5"},
           {"from":"g1", "to":"f3"},
@@ -119,21 +254,26 @@ london = [{"from":"d2", "to":"d4"},
           {"from":"e7", "to": "e6"}]
 
 get_opening_count(london)
->>Move: d2->d4, Count: 70628
->>Move: d7->d5, Count: 18023
->>Move: g1->f3, Count: 3790
->>Move: g8->f6, Count: 2654
->>Move: c1->f4, Count: 707
->>Move: e7->e6, Count: 173
-```
+&gt;&gt;Move: d2-&gt;Move: d2->d4, Count: 70628
+&gt;&gt;Move: d2-&gt;Move: d7->d5, Count: 18023
+&gt;&gt;Move: d2-&gt;Move: g1->f3, Count: 3790
+&gt;&gt;Move: d2-&gt;Move: g8->f6, Count: 2654
+&gt;&gt;Move: d2-&gt;Move: c1->f4, Count: 707
+&gt;&gt;Move: d2-&gt;Move: e7->e6, Count: 173
+  </code></pre>
+</div>
+
 We have 70.000 occurences of d2 to d4 in our dataset. Suprisingly, (at least to me) d5 is not the most common response to d4, but rather Nf6, the Indian defense. 
 
 Similarly, we can look at the Fools Mate: 
-```python
->>>Move: f2->f3, Count: 60
->>>Move: e7->e5, Count: 17
->>>Move: g2->g4, Count: 1
-```
+<div align="center">
+  <pre><code>
+&gt;&gt;Move: d2-&gt;Move: f2->f3, Count: 60
+&gt;&gt;Move: d2-&gt;Move: e7->e5, Count: 17
+&gt;&gt;Move: d2-&gt;Move: g2->g4, Count: 1
+  </code></pre>
+</div>
+
 There is one occurence of a player actually playing g2 to g4. Guess who played that move? Kramnik, who [accused](https://www.reddit.com/r/chess/comments/15loioy/vladimir_kramnik_allowed_a_fools_mate_in_titled/) Yaroslav Remizov of cheating. The game can be found [here](https://www.chess.com/game/live/85247629407). So, while this is only a tiny fraction of Chess Openings, and is not taking into account the quality of the moves, we now have an opening data-base. Any novelty is a move that has only been played once!
 
 ## Novelty Timing
