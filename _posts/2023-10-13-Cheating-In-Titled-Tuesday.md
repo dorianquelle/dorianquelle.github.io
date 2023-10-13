@@ -105,8 +105,8 @@ Table 1 presents the number of games played by selected players throughout the y
 
 Similarly, we can look at the players with the highest draw rate and best average game results!
 
-<div style="text-align: center; width: 100%;">
-  <table style="margin: auto; border-collapse: collapse; width: 80%;">
+<div style="text-align: center; width: 100%; overflow: auto;">
+  <table style="margin: auto; border-collapse: collapse; width: 48%; display: inline-table;">
     <tr>
       <td style="vertical-align: top;">
         <table style="margin: auto; border-collapse: collapse; width: 100%;">
@@ -168,7 +168,7 @@ Similarly, we can look at the players with the highest draw rate and best averag
         </table>
       </td>
    <td style="vertical-align: top;">
-        <table style="margin: auto; border-collapse: collapse; width: 100%;">
+        <table style="margin: auto; border-collapse: collapse; width: 48%; display: inline-table;">
           <tr style="text-align: center;">
             <th>Player</th>
             <th>Full Name</th>
