@@ -6,12 +6,8 @@ search: false
 @charset "utf-8";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import "susy";
 
 .page {
-  @include breakpoint($large) {
-    @include span(11 of 12 last); // Increase span to reduce whitespace
-    @include prefix(0.5 of 12);
-    @include suffix(0.5 of 12); // Reduce suffix to reduce whitespace
-  }
+    width: calc(100% - 300px);
+    padding-right: 0px;
 }
