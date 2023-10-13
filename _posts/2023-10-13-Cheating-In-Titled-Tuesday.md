@@ -138,7 +138,7 @@ There is one occurence of a player actually playing g2 to g4. Guess who played t
 
 ## Novelty Timing
 <div align="center">
-<img src="./Plots/average_move_number_until_novelty_by_elo.png" width = "600">
+<img src="../assets/images/average_move_number_until_novelty_by_elo.png" width = "600">
 </div>
 
 So when do players actually play a novelty on average? We see a very clear trend. The higher the elo, the later the novelty. This makes sense, as the higher the elo, the more theory is known. However, the gains for an increasing elo are diminishing. We see that a 1900 is on average "in theory" until move 6.3 In contrast, a 3000 elo player stays in theory until move 8. While this difference is significant, it is not as big as one would expect. One more fun observation we make is what I would coin the GOAT effect. The last two pawns are driven mainly by two players. Magnus Carlsen and Hikaru Nakamura. The two players with the highest elo in our dataset. They don't need to stay in theory to win a game, so they love messing around and drop out of theory much faster than other players. White is also much longer in theory than black. If white plays a novelty on move 10, black is also out of theory on move 10. In constrast, when black plays a novelty on move 10, white is "in theory" until move 11.
@@ -151,7 +151,7 @@ Vladimir Kramnik contends that players exhibit higher accuracy levels against hi
 What's more important for your own accuracy? Your rating, or the differential between your and your opponents rating? 
 
 <div align="center">
-<img title="a title" alt="Alt text" src="./Plots/best_move_rate_by_rating_and_rating_differential.png" width = "600">
+<img title="a title" alt="Alt text" src="../assets/images/best_move_rate_by_rating_and_rating_differential.png" width = "600">
 </div>
 
 The left plot in Figure 1 depicts the percentage of moves aligning with the top engine recommendations across five different Elo groups. Surprisingly, there's minimal variance between a 2000-Elo player and a 3000-Elo player in terms of adhering to engine-recommended moves. After an initial divergence in the opening phase, the curve settles at around a 45% concurrence rate with the top engine moves.
@@ -163,7 +163,7 @@ So when Kramnik compares his opponents accuracy to the accuracy of Hikaru or Mag
 In summary, the observed discrepancy in opponent accuracy isn't necessarily indicative of cheating. Rather, it appears to be a function of the Elo differential, which has a pronounced impact on the likelihood of playing engine-recommended moves. This analysis suggests that Kramnik's concerns, while understandable, may be based on an incomplete understanding of the dynamics at play.
 
 <div align = "center">
-<img src="./Plots/combined_plot.png" alt="Combined Plot" width="800" style="margin-right: 20px;">
+<img src="../assets/images/combined_plot.png" alt="Combined Plot" width="800" style="margin-right: 20px;">
 </div>
 
 Figure 2 presents a comprehensive view by breaking down performance into three key variables: the frequency of blunders, the rate of optimal moves, and the average loss per move. Across all these variables, the Elo differential—rather than the player's individual Elo rating—stands out as the dominant predictive factor.
@@ -176,7 +176,7 @@ In summary, all variables show a consistent trend: players perform better agains
 
 ## Performance by Player
 <div align = "center">
-<img title="a title" alt="Alt text" src="./Plots/player_combined_plot.png" width = "800">
+<img title="a title" alt="Alt text" src="../assets/images/player_combined_plot.png" width = "800">
 </div>
 
 The left plot, illustrating average loss per move by player rating, reveals a distinctly non-linear trend. Higher Elo ratings are associated with lower average losses. However, this metric is subject to a multitude of confounding variables, such as the Elo differential between opponents and the duration of endgames, which are not accounted for in this plot.
