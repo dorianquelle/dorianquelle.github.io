@@ -342,7 +342,7 @@ First and foremost, it's important to acknowledge the expertise of platforms lik
 <h3> Defining 'Accuracy' </h3>
 A move is categorized as "very good" if it ranks within the top three engine-suggested moves and incurs a loss of less than 0.3. Accuracy is then defined as the percentage of such "very good" moves in a game.
 
-<h3> What Constitutes a 'Suspicious' Game or Player? <h3>
+<h3> What Constitutes a 'Suspicious' Game or Player? </h3>
 <ol>
   <li><strong>Suspicious Game:</strong> A game qualifies as suspicious if it has more than 20 moves and the player's moves are consistently among the top three engine recommendations, with a loss of less than 0.3, particularly between the opening novelty and move 40. </li>
   <li><strong>Suspicious Player:</strong> A player is deemed suspicious if the percentage of their games that meet the 'suspicious game' criteria is two standard deviations above the average for their peer group.</li>
