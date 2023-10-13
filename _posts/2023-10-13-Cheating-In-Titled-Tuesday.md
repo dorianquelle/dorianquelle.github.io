@@ -3,6 +3,7 @@ layout: single
 title: "An Analysis of Cheating In Titled Tuesday"
 date: 2023-10-13
 categories: [blog]
+asses: wide
 ---
 
 <style>
