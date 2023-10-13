@@ -1,15 +1,10 @@
 ---
 layout: single
-title: "My First Blog Post"
+title: "An Analysis of Cheating In Titled Tuesday"
 date: 2023-10-13
 categories: [blog]
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+
 <style>
     .float-right {
         float: right;
@@ -33,8 +28,7 @@ categories: [blog]
         font-size: adjust;  /* Use 'adjust' to resize text or specify a font size */
     }
 </style>
-</head>
-<body>
+
 
 
 <div style="text-align: justify">
