@@ -1,3 +1,9 @@
+---
+layout: single
+title: "My First Blog Post"
+date: 2023-10-13
+categories: [blog]
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
