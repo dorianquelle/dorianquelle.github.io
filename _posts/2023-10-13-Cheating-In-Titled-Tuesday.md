@@ -244,7 +244,7 @@ They're all right! Expect for the one guy who said I'm a cheater myself 🤔. I 
 
 So what does the data tell us? 
 <div align = "center">
-<img title="a title" alt="Alt text" src="./Plots/expectation_plot.png" width = "800">
+<img title="a title" alt="Alt text" src="../assets/images/expectation_plot.png" width = "800">
 </div>
 
 The plot features a red line, representing a linear model that predicts the percentage of games where players score higher than 80%. The two dashed lines indicate a 2SD (two standard deviations) confidence interval. Players exceeding this 2SD threshold are highlighted in red.
