@@ -101,7 +101,7 @@ Table 1 presents the number of games played by selected players throughout the y
   </table>
 </div>
 
-## Peformance Metrics
+<h2> Peformance Metrics </h2>
 
 Similarly, we can look at the players with the highest draw rate and best average game results!
 
@@ -235,12 +235,12 @@ Table 2 highlights the players with the highest average performance, measured as
 
 Building upon our previous discussion, let's consider additional performance indicators—Average Result and Draw Rate. Table 3 offer insights into the top performers and the most draw-prone players. A surprising inclusion in this list in GM Daniel Naroditsky, who is known for his aggressive style. A redeeming factor is that higher elo players tend to have a much higher draw rate, than lower rated players.
 
-# Engine Analysis and Opening Database
+<h1> Engine Analysis and Opening Database </h1>
 
-## Stockfish Evaluation
+<h2> Stockfish Evaluation </h2>
 To assess game quality and novelty, Stockfish 16 was employed to analyze each board position for one second. This yields a comparison between the player's move and Stockfish's recommended move, allowing us to quantify mistakes and brilliance alike.
 
-## Opening Database
+<h2> Opening Database </h2>
 While access to third-party APIs for opening statistics is a common practice, we opted for a DIY approach by constructing an opening tree solely based on our Titled Tuesday dataset. This has the benefit of being highly tailored to the games under analysis.
 
 For instance, we can examine the frequency of various moves in popular openings like the London System:
@@ -277,14 +277,14 @@ Similarly, we can look at the Fools Mate:
 
 There is one occurence of a player actually playing g2 to g4. Guess who played that move? Kramnik, who [accused](https://www.reddit.com/r/chess/comments/15loioy/vladimir_kramnik_allowed_a_fools_mate_in_titled/) Yaroslav Remizov of cheating. The game can be found [here](https://www.chess.com/game/live/85247629407). So, while this is only a tiny fraction of Chess Openings, and is not taking into account the quality of the moves, we now have an opening data-base. Any novelty is a move that has only been played once!
 
-## Novelty Timing
+<h2> Novelty Timing </h2>
 <div align="center">
 <img src="../assets/images/average_move_number_until_novelty_by_elo.png" width = "600">
 </div>
 
 So when do players actually play a novelty on average? We see a very clear trend. The higher the elo, the later the novelty. This makes sense, as the higher the elo, the more theory is known. However, the gains for an increasing elo are diminishing. We see that a 1900 is on average "in theory" until move 6.3 In contrast, a 3000 elo player stays in theory until move 8. While this difference is significant, it is not as big as one would expect. One more fun observation we make is what I would coin the GOAT effect. The last two pawns are driven mainly by two players. Magnus Carlsen and Hikaru Nakamura. The two players with the highest elo in our dataset. They don't need to stay in theory to win a game, so they love messing around and drop out of theory much faster than other players. White is also much longer in theory than black. If white plays a novelty on move 10, black is also out of theory on move 10. In constrast, when black plays a novelty on move 10, white is "in theory" until move 11.
 
-## Performance by Rating
+<h2> Performance by Rating </h2>
 
 Vladimir Kramnik contends that players exhibit higher accuracy levels against him compared to when they face off against Hikaru Nakamura or Magnus Carlsen. At first glance, this could be interpreted as evidence of cheating. However, before jumping to conclusions, let's consider the underlying factors that could influence this phenomenon.
 
@@ -315,7 +315,7 @@ Figure 2 presents a comprehensive view by breaking down performance into three k
 
 In summary, all variables show a consistent trend: players perform better against weaker opponents.
 
-## Performance by Player
+<h2> Performance by Player </h2>
 <div align = "center">
 <img title="a title" alt="Alt text" src="../assets/images/player_combined_plot.png" width = "800">
 </div>
@@ -326,27 +326,29 @@ Conversely, the right plot demonstrates a linear relationship between Elo rating
 
 Yet, the left plot exposes a glaring inconsistency in Kramnik's performance. Despite his high accuracy in playing engine-recommended moves, he registers a higher average loss per move than one would expect for a player of his Elo rating. This suggests that while Kramnik may excel in making accurate moves, he is also prone to significant blunders. Playing the fools mate because you're suspecting a player of cheating doesn't help either.
 
-## Investigation
+<h2> Investigation </h2>
 First and foremost, it's important to acknowledge the expertise of platforms like Chess.com in identifying and mitigating cheating. They have access to a wealth of data and sophisticated algorithms that far surpass the scope of this analysis. The goal here is not to pinpoint cheaters but to assess the claim that widespread cheating significantly impacts online chess games.
 
-#### What This Analysis Can't Capture
+<h3> What This Analysis Can't Capture </h3>
 - Single-Game Anomalies: The methodology relies on examining performance trends across multiple games. It doesn't focus on individual games where a player might have a 'miracle run,' executing a flawless series of moves. Such instances are part of the natural variability in chess and do not necessarily indicate cheating.
 - Single-Move Cheating: The analysis is not designed to detect players who may cheat on just one move per game. The logistical complexities of consistently cheating on a single move make this an unlikely scenario. Inputting moves into an engine or relying on browser extensions would likely result in more widespread cheating due to the temptation of having the 'perfect move' readily available.
 
-## Identifying Suspicious Players: Methodological Considerations
+<h2> Identifying Suspicious Players: Methodological Considerations </h2>
 
-### Criteria for Exclusion: Openings and Endgames
-1. **Openings**: Given that even dubious openings like the King's Gambit can be part of a legitimate strategy, opening moves are excluded from this analysis. The focus is on moves made after the first "novelty" from either player.
-   
-2. **Endgames**: Moves after the 40th turn are considered endgame moves and are also excluded. The rationale here is that many endgame positions force optimal moves, making them less indicative of general playing skill or suspicious behavior.
+<h3> Criteria for Exclusion: Openings and Endgames </h3>
+<ol>
+  <li><strong>Openings:</strong> Given that even dubious openings like the King's Gambit can be part of a legitimate strategy, opening moves are excluded from this analysis. The focus is on moves made after the first "novelty" from either player.</li>
+  <li><strong>Endgames:</strong> Moves after the 40th turn are considered endgame moves and are also excluded. The rationale here is that many endgame positions force optimal moves, making them less indicative of general playing skill or suspicious behavior.</li>
+</ol>
 
-### Defining 'Accuracy'
+<h3> Defining 'Accuracy' </h3>
 A move is categorized as "very good" if it ranks within the top three engine-suggested moves and incurs a loss of less than 0.3. Accuracy is then defined as the percentage of such "very good" moves in a game.
 
-### What Constitutes a 'Suspicious' Game or Player?
-- **Suspicious Game**: A game qualifies as suspicious if it has more than 20 moves and the player's moves are consistently among the top three engine recommendations, with a loss of less than 0.3, particularly between the opening novelty and move 40.
-  
-- **Suspicious Player**: A player is deemed suspicious if the percentage of their games that meet the 'suspicious game' criteria is two standard deviations above the average for their peer group.
+<h3> What Constitutes a 'Suspicious' Game or Player? <h3>
+<ol>
+  <li><strong>Suspicious Game:</strong> A game qualifies as suspicious if it has more than 20 moves and the player's moves are consistently among the top three engine recommendations, with a loss of less than 0.3, particularly between the opening novelty and move 40. </li>
+  <li><strong>Suspicious Player:</strong> A player is deemed suspicious if the percentage of their games that meet the 'suspicious game' criteria is two standard deviations above the average for their peer group.</li>
+</ol>
 
 By applying these criteria, we aim to identify outliers whose performance metrics significantly deviate from expected norms. This provides a more nuanced approach to evaluating player performance and identifying potentially suspicious behavior. It's worth noting that this method is designed to flag anomalies for further investigation rather than serve as conclusive evidence of cheating.
 
