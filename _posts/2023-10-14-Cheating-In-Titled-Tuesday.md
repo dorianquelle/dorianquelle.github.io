@@ -8,6 +8,10 @@ categories: [blog]
 toc: true
 toc_label: "Table of Contents"
 excerpt: "An in depth computational analysis of cheating in Chess.com Title Tuesday tournaments!"
+header:
+  overlay_image: /assets/images/dallecheating.png
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 # Introduction
 On September 14th, the Csquared Podcast welcomed Vladimir Kramnik, the former World Chess Champion, for a candid conversation about the increasing prevalence of cheating in online chess. Over the course of two engaging hours, Kramnik expressed his concern over the rampant cheating issue, even hinting that he himself has been disproportionately targeted on Chess.com. To examine the veracity of these claims, this article delves into data from 90 Titled Tuesday tournaments.
