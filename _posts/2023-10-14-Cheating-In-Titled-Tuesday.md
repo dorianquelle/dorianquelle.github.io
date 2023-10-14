@@ -30,7 +30,7 @@ Table 1 presents the number of games played by selected players throughout the y
 Similarly, we can look at the players with the highest draw rate and best average game results!
 
 
-|        **Best Performing Players**         |                      |         **Most Drawish Players**          |
+|                       |**Best Performing Players**  |          ||                    |**Most Drawish Players** |       |
 |:--------------------:|:-----------------------:|:-------------:||:-----------------:|:-----------------:|:------------:|
 | **Player**           | **Full Name**           | **Avg Result**|| **Player**        | **Full Name**     | **Draw Rate**|
 | howitzer14           | GM David Howell         | 90.71%        || Schattman         | FM Florian Gatterer| 31.60%      |
