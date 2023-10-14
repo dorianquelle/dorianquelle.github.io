@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "CV"
-    url: "/cv/"
+    url: "/cv.pdf"
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
