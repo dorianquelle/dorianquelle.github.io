@@ -8,8 +8,10 @@ asses: wide
 # Introduction
 On September 14th, the Csquared Podcast welcomed Vladimir Kramnik, the former World Chess Champion, for a candid conversation about the increasing prevalence of cheating in online chess. Over the course of two engaging hours, Kramnik expressed his concern over the rampant cheating issue, even hinting that he himself has been disproportionately targeted on Chess.com. To examine the veracity of these claims, this article delves into data from 90 Titled Tuesday tournaments.
 
+This essay will start by providing an overview over the data. We will first explore how many games are played per player. We will then delve into openings - a measure that we need to define a cheater later on. Then we will explore one of the reasons why players play better against Kramnik than against Magnus. Finally, we will look at the performance of players and how we can identify cheaters. 
+
 # Data & Methods
-The analysis is based on data collected from all early and late Titled Tuesday tournaments in 2023. The dataset encompasses 137,392 games from 90 distinct tournaments, featuring 3,525 players.
+The analysis is based on data collected from all early and late Titled Tuesday tournaments in 2023. The dataset encompasses 137,392 games from 90 distinct tournaments, featuring 3,525 players. 
 
 ## Player Activity
 Table 1 presents the number of games played by selected players throughout the year. GM Sergei Zhigalko and IM Nikolai Vlassov are in a deadlock for the top spot, each having participated in 756 games. GM Hikaru Nakamura leads among the well-known players, ranking 21st with 579 games, while IM Eric Rosen and GM Magnus Carlsen have played notably fewer games, at 334 and 289 respectively.
@@ -29,7 +31,6 @@ Table 1 presents the number of games played by selected players throughout the y
 
 Similarly, we can look at the players with the highest draw rate and best average game results!
 
-
 |                       |**Best Performing Players**  |          ||                    |**Most Drawish Players** |       |
 |:--------------------:|:-----------------------:|:-------------:||:-----------------:|:-----------------:|:------------:|
 | **Player**           | **Full Name**           | **Avg Result**|| **Player**        | **Full Name**     | **Draw Rate**|
@@ -47,8 +48,6 @@ Similarly, we can look at the players with the highest draw rate and best averag
 Table 2 highlights the players with the highest average performance, measured as the mean of game outcomes where a win is scored as 1, a draw as 0.5, and a loss as 0. Among the high-performing players, familiar names like Magnus Carlsen, Hikaru Nakamura, and Fabiano Caruana are not surprising. Nihal Sarin, a young prodigy born in 2004, performs impressively, outscoring several top-10 players. Yet, the standout performer is David Howell, with an average score of 0.9071. Despite his tendency to withdraw or join late to tournaments, this strategy seems to benefit him as he avoids facing high-performing players in later rounds. With a record of 120 wins, 14 draws, and only 6 losses, Howell clearly dominates the field.
 
 Building upon our previous discussion, let's consider additional performance indicators—Average Result and Draw Rate. Table 3 offer insights into the top performers and the most draw-prone players. A surprising inclusion in this list in GM Daniel Naroditsky, who is known for his aggressive style. A redeeming factor is that higher elo players tend to have a much higher draw rate, than lower rated players.
-
-# Engine Analysis and Opening Database
 
 ## Stockfish Evaluation
 To assess game quality and novelty, Stockfish 16 was employed to analyze each board position for one second. This yields a comparison between the player's move and Stockfish's recommended move, allowing us to quantify mistakes and brilliance alike.
@@ -75,8 +74,7 @@ get_opening_count(london)
 >>Move: e7->e6, Count: 173
 ```
 
-We have 70.000 occurences of d2 to d4 in our dataset. Suprisingly, (at least to me) d5 is not the most common response to d4, but rather Nf6, the Indian defense. 
-
+We have 70.000 occurences of d2 to d4 in our dataset. Suprisingly, d5 is not the most common response to d4, but rather Nf6, the Indian defense. 
 Similarly, we can look at the Fools Mate: 
 ```python
 >>>Move: f2->f3, Count: 60
@@ -90,14 +88,14 @@ There is one occurence of a player actually playing g2 to g4. Guess who played t
 <img src="../assets/images/average_move_number_until_novelty_by_elo.png" style="width: 100%;">
 </div>
 
-So when do players actually play a novelty on average? We see a very clear trend. The higher the elo, the later the novelty. This makes sense, as the higher the elo, the more theory is known. However, the gains for an increasing elo are diminishing. We see that a 1900 is on average "in theory" until move 6.3 In contrast, a 3000 elo player stays in theory until move 8. While this difference is significant, it is not as big as one would expect. One more fun observation we make is what I would coin the GOAT effect. The last two pawns are driven mainly by two players. Magnus Carlsen and Hikaru Nakamura. The two players with the highest elo in our dataset. They don't need to stay in theory to win a game, so they love messing around and drop out of theory much faster than other players. White is also much longer in theory than black. If white plays a novelty on move 10, black is also out of theory on move 10. In constrast, when black plays a novelty on move 10, white is "in theory" until move 11.
+So when do players actually play a novelty on average? We see a very clear trend. The higher the elo, the later the novelty. This makes sense, as the higher the elo, the more theory is known. However, the gains for an increasing elo are diminishing. We see that a 1900 is on average "in theory" until move 6.3 In contrast, a 3000 elo player stays in theory until move 8. While this difference is significant, it is not as big as one would expect. One more fun observation we make is what I would coin the GOAT effect. The last two pawns are driven mainly by two players. Magnus Carlsen and Hikaru Nakamura. The two players with the highest elo in our dataset. They don't need to stay in theory to win a game, so they love messing around and drop out of theory much faster than other players. White is also much longer in theory than black. This is essentially an artefact of how I chose to define a novelty. If white plays a novelty on move 10, black is also out of theory on move 10. In constrast, when black plays a novelty on move 10, white is "in theory" until move 11. 
 
 ## Performance by Rating
 
 Vladimir Kramnik contends that players exhibit higher accuracy levels against him compared to when they face off against Hikaru Nakamura or Magnus Carlsen. At first glance, this could be interpreted as evidence of cheating. However, before jumping to conclusions, let's consider the underlying factors that could influence this phenomenon.
 
 
-What's more important for your own accuracy? Your rating, or the differential between your and your opponents rating? 
+What's more important for your own accuracy? **Your rating**, or **the differential** between your and your opponents rating? Take a second to venture a guess, before looking at the plot. In hindsight, the result is always obvious, but the magnitude of the effect did suprise me!
 
 <div align="center">
 <img title="a title" alt="Alt text" src="../assets/images/best_move_rate_by_rating_and_rating_differential.png" style="width: 100%;">
@@ -107,9 +105,9 @@ The left plot in Figure 1 depicts the percentage of moves aligning with the top 
 
 On the other hand, the right plot reveals a more telling trend based on Elo differential—i.e., the difference between the player's Elo and their opponent's Elo. A larger Elo differential correlates positively with a higher rate of engine-recommended moves. For example, if you outclass your opponent by roughly 500 Elo points, the rate at which you play the optimal move jumps to 55%. Conversely, if your Elo is 500 points lower than your opponent's, this rate drops to 42%.
 
-So when Kramnik compares his opponents accuracy to the accuracy of Hikaru or Magnus, he is comparing apples to oranges. We would expect the opponents of Kramnik to roughly play the best move 12.5% of the time more than the opponents of Hikaru or Magnus. 
+So when Kramnik compares his opponents accuracy to the accuracy of opponents of Hikaru or Magnus, he is comparing apples to oranges. We would expect the opponents of Kramnik to roughly play the best move 12.5% of the time more than the opponents of Hikaru or Magnus. 
 
-In summary, the observed discrepancy in opponent accuracy isn't necessarily indicative of cheating. Rather, it appears to be a function of the Elo differential, which has a pronounced impact on the likelihood of playing engine-recommended moves. This analysis suggests that Kramnik's concerns, while understandable, may be based on an incomplete understanding of the dynamics at play.
+So the discrepancy Kramnik observed in his opponents accuracy isn't necessarily indicative of cheating. Rather, it appears to be a function of the Elo differential, which has a pronounced impact on the likelihood of playing engine-recommended moves. This analysis suggests that Kramnik's concerns, while understandable, may be based on an incomplete understanding of the dynamics at play.
 
 <div align = "center">
 <img src="../assets/images/combined_plot.png" alt="Combined Plot" style="width: 100%;">
@@ -132,16 +130,14 @@ The left plot, illustrating average loss per move by player rating, reveals a di
 
 Conversely, the right plot demonstrates a linear relationship between Elo rating and the frequency of playing the engine's recommended move. Interestingly, Kramnik outperforms Hikaru in this metric, playing the optimal move more frequently.
 
-Yet, the left plot exposes a glaring inconsistency in Kramnik's performance. Despite his high accuracy in playing engine-recommended moves, he registers a higher average loss per move than one would expect for a player of his Elo rating. This suggests that while Kramnik may excel in making accurate moves, he is also prone to significant blunders. Playing the fools mate because you're suspecting a player of cheating doesn't help either.
+Yet, the left plot exposes a glaring inconsistency in Kramnik's performance. Despite his high accuracy in playing engine-recommended moves, he registers a higher average loss per move than one would expect for a player of his Elo rating. This suggests that while Kramnik plays the engine move in most cases, he is also prone to significant blunders. Playing the fools mate because you're suspecting a player of cheating doesn't help either.
 
 ## Investigation
-First and foremost, it's important to acknowledge the expertise of platforms like Chess.com in identifying and mitigating cheating. They have access to a wealth of data and sophisticated algorithms that far surpass the scope of this analysis. The goal here is not to pinpoint cheaters but to assess the claim that widespread cheating significantly impacts online chess games.
+First and foremost, it's important to acknowledge the expertise of Chess.com in identifying and mitigating cheating. They have access to a wealth of data and sophisticated algorithms that far surpass the scope of this analysis. The goal here is not to pinpoint cheaters but to assess the claim that widespread cheating significantly impacts online chess games.
 
 #### What This Analysis Can't Capture
 - Single-Game Anomalies: The methodology relies on examining performance trends across multiple games. It doesn't focus on individual games where a player might have a 'miracle run,' executing a flawless series of moves. Such instances are part of the natural variability in chess and do not necessarily indicate cheating.
 - Single-Move Cheating: The analysis is not designed to detect players who may cheat on just one move per game. The logistical complexities of consistently cheating on a single move make this an unlikely scenario. Inputting moves into an engine or relying on browser extensions would likely result in more widespread cheating due to the temptation of having the 'perfect move' readily available.
-
-## Identifying Suspicious Players: Methodological Considerations
 
 ### Criteria for Exclusion: Openings and Endgames
 1. **Openings**: Given that even dubious openings like the King's Gambit can be part of a legitimate strategy, opening moves are excluded from this analysis. The focus is on moves made after the first "novelty" from either player.
@@ -159,7 +155,7 @@ A move is categorized as "very good" if it ranks within the top three engine-sug
 By applying these criteria, we aim to identify outliers whose performance metrics significantly deviate from expected norms. This provides a more nuanced approach to evaluating player performance and identifying potentially suspicious behavior. It's worth noting that this method is designed to flag anomalies for further investigation rather than serve as conclusive evidence of cheating.
 
 
-I was already torn to shreds in the great Chess.com Forum that discusses cheaters on the site. Some comments that I'd like to highlight:
+I was already torn to shreds in a Chess.com Forum that discusses cheaters on the site, when I asked for help to define a quantitative measure that could capture cheaters. Some comments that I'd like to highlight:
 
 > **BishopsPawn3:** 
 > > _[...] I remember playing a 90 minute over the board game where I and my opponent played 20 book moves in the Ruy Lopez. My opponent deviated first on move 21. I think we both studied the same book. [...] I'm guessing in titled games that sort of thing would be far more common._
@@ -181,7 +177,7 @@ I was already torn to shreds in the great Chess.com Forum that discusses cheater
 
 ---
 
-**BishopsPawn3** brings up a good point about "book moves," or moves that are commonly studied and memorized from chess literature. In titled games, it's entirely likely that both players could follow a known sequence of moves well into the middle game. This phenomenon could skew the analysis if it's not properly accounted for, as it could make it look like both players are playing "perfectly" according to engine recommendations.
+**BishopsPawn3** brings up a good point about "book moves," or moves that are commonly studied and memorized from chess literature. While we exclude opening moves, our data-base is quite small. It is very likely that there are games where both players have studied the first 20 moves. This could skew the analysis, as it could make it look like both players are playing "perfectly" according to engine recommendations.
 
 **Christopher_Parsons** points out a limitation with using standard deviations: the potential for false positives. In a game as complex and variable as chess, the "average" or "expected" behavior isn't always a reliable point of reference. Using a strict standard deviation model could flag players who are merely outliers, not cheaters.
 
