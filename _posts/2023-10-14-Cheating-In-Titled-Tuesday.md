@@ -7,7 +7,7 @@ date: 2023-10-13
 categories: [blog]
 toc: true
 toc_label: "Table of Contents"
-excerpt: "An in depth computational analysis of cheating in Chess.com Title Tuesday tournaments!"
+excerpt: "An in depth computational analysis of cheating in Chess.com Titled-Tuesday tournaments"
 header:
   overlay_image: /assets/images/dallecheating.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
@@ -37,7 +37,7 @@ Table 1 presents the number of games played by selected players throughout the y
 
 ## Peformance Metrics
 
-Similarly, we can look at the players with the highest draw rate and best average game results!
+Similarly, we can look at the players with the highest draw rate and best average game results.
 
 |                       |**Best Performing Players**  |          ||                    |**Most Drawish Players** |       |
 |:--------------------:|:-----------------------:|:-------------:||:-----------------:|:-----------------:|:------------:|
@@ -89,7 +89,7 @@ Similarly, we can look at the Fools Mate:
 >>>Move: e7->e5, Count: 17
 >>>Move: g2->g4, Count: 1
 ```
-There is one occurence of a player actually playing g2 to g4. Guess who played that move? Kramnik, who [accused](https://www.reddit.com/r/chess/comments/15loioy/vladimir_kramnik_allowed_a_fools_mate_in_titled/) Yaroslav Remizov of cheating. The game can be found [here](https://www.chess.com/game/live/85247629407). So, while this is only a tiny fraction of Chess Openings, and is not taking into account the quality of the moves, we now have an opening data-base. Any novelty is a move that has only been played once!
+There is one occurence of a player actually playing g2 to g4. Guess who played that move? Kramnik, who [accused](https://www.reddit.com/r/chess/comments/15loioy/vladimir_kramnik_allowed_a_fools_mate_in_titled/) Yaroslav Remizov of cheating. The game can be found [here](https://www.chess.com/game/live/85247629407). So, while this is only a tiny fraction of Chess Openings, and is not taking into account the quality of the moves, we now have an opening data-base. Any novelty is a move that has only been played once.
 
 ## Novelty Timing
 <div align="center">
@@ -194,7 +194,7 @@ I was already torn to shreds in a Chess.com Forum that discusses cheaters on the
 
 Finally, **mercatorproject** questions the specific choice of two standard deviations as the threshold for defining a "suspicious player." The choice of two standard deviations is a common rule of thumb in statistics for identifying outliers, but in the context of chess and potential cheating, it might not be the most appropriate measure.
 
-They're all right! Expect for the one guy who said I'm a cheater myself 🤔. I 100% agree! This method is blunt, it cannot find any specific cheater, and it will always turn up loads of false-positives. I desperately do not want to accuse anyone of cheating falsely (I dont have 100.000.000$). What this method does achieve is to show that Kramnik is wrong. There might be cheating, but claiming that a substantial proportion of players is cheating is a baseless accusation. 
+They're all right! Expect for the one guy who said I'm a cheater myself 🤔. This method is blunt, it cannot find any specific cheater, and it will always turn up loads of false-positives. I desperately do not want to accuse anyone of cheating falsely (I dont have 100.000.000$). What this method does achieve is to show that Kramnik is wrong. There might be cheating, but claiming that a substantial proportion of players is cheating is a baseless accusation. 
 
 So what does the data tell us? 
 <div align = "center">
