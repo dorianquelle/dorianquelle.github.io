@@ -14,8 +14,6 @@ The analysis is based on data collected from all early and late Titled Tuesday t
 ## Player Activity
 Table 1 presents the number of games played by selected players throughout the year. GM Sergei Zhigalko and IM Nikolai Vlassov are in a deadlock for the top spot, each having participated in 756 games. GM Hikaru Nakamura leads among the well-known players, ranking 21st with 579 games, while IM Eric Rosen and GM Magnus Carlsen have played notably fewer games, at 334 and 289 respectively.
 
-<div align="center">
-
 |    **Player**   | **Games** | **Full Name** |**Rank** |
 |:---------------:|:---------:|:--------:|:--------:|
 | Zhigalko_Sergei |    756    |     GM Sergei Zhigalko   |     1    |
@@ -27,42 +25,24 @@ Table 1 presents the number of games played by selected players throughout the y
 |   GothamChess   |    185    |    IM Levy Rozman   |   406    |
 |  AlexandraBotez |     54    |   WFM Alexandra Botez   |   1391   |
 
-</div>
-
 ## Peformance Metrics
 
 Similarly, we can look at the players with the highest draw rate and best average game results!
 
 
-
-| **Player**            | **Full Name**            | **Average Result** |
-|:--------------------:|:-----------------------:|:-------------:|
-| howitzer14        | GM David Howell         | 90.71%      |
-| MagnusCarlsen     | GM Magnus Carlsen       | 80.97%      |
-| nihalsarin        | GM Nihal Sarin          | 80.65%      |
-| Hikaru            | GM Hikaru Nakamura      | 79.97%      |
-| lachesisQ         | GM Ian Nepomniachtchi   | 78.49%      |
-| Firouzja2003      | GM Alireza Firouzja     | 77.69%      |
-| GMWSO             | GM Wesley So            | 77.60%      |
-| RaunakSadhwani2005| GM Raunak Sadhwani      | 77.56%      |
-| LyonBeast         | GM Maxime Vachier-Lagrave| 77.50%     |
-| FabianoCaruana    | GM Fabiano Caruana      | 76.86%      |
-
-|     **Player**       |     **Full Name**     | **Draw Rate** |
-|:-----------------:|:-----------------:|:-----------:|
-|    Schattman      |         FM Florian Gatterer     |   31.60%    |
-|    BahadirOzen    |         IM BahadirOzen         |   27.32%    |
-|    Viacheslav92   |         FM Malyi Viacheslav        |   25.00%    |
-|   avinashramesh4  |         IM ?         |   24.53%    |
-|     GMRafpig      |         GM Rafael Leitao         |   23.47%    |
-| DanielNaroditsky  | GM Daniel Naroditsky |   22.91%    |
-|    Coachpoker     |         IM ?         |   22.74%    |
-|    Goryachkina    |  GM Aleksandra Goryachkina | 22.48%  |
-|    Godzillator    |         FM ?         |   22.34%    |
-|   TigrVShlyape    |         GM Gata Kamsky        |   22.31%    |
-
-
-</div>
+|                    **Best Performing Players**                 |                    **Most Drawish Players**          |
+|:--------------------:|:-----------------------:|:-------------:|:-----------------:|:-----------------:|:------------:|
+| **Player**           | **Full Name**           | **Avg Result**| **Player**        | **Full Name**     | **Draw Rate**|
+| howitzer14           | GM David Howell         | 90.71%        | Schattman         | FM Florian Gatterer| 31.60%      |
+| MagnusCarlsen        | GM Magnus Carlsen       | 80.97%        | BahadirOzen       | IM BahadirOzen     | 27.32%      |
+| nihalsarin           | GM Nihal Sarin          | 80.65%        | Viacheslav92      | FM Malyi Viacheslav| 25.00%      |
+| Hikaru               | GM Hikaru Nakamura      | 79.97%        | avinashramesh4    | IM ?               | 24.53%      |
+| lachesisQ            | GM Ian Nepomniachtchi   | 78.49%        | GMRafpig          | GM Rafael Leitao   | 23.47%      |
+| Firouzja2003         | GM Alireza Firouzja     | 77.69%        | DanielNaroditsky  | GM Daniel Naroditsky|22.91%      |
+| GMWSO                | GM Wesley So            | 77.60%        | Coachpoker        | IM ?               | 22.74%      |
+| RaunakSadhwani2005   | GM Raunak Sadhwani      | 77.56%        | Goryachkina       | GM Aleksandra Goryachkina|22.48  |
+| LyonBeast            | GM Maxime Vachier-Lagrave|77.50%        | Godzillator       | FM ?               | 22.34%      |
+| FabianoCaruana       | GM Fabiano Caruana      | 76.86%        | TigrVShlyape      | GM Gata Kamsky     | 22.31%      |
 
 Table 2 highlights the players with the highest average performance, measured as the mean of game outcomes where a win is scored as 1, a draw as 0.5, and a loss as 0. Among the high-performing players, familiar names like Magnus Carlsen, Hikaru Nakamura, and Fabiano Caruana are not surprising. Nihal Sarin, a young prodigy born in 2004, performs impressively, outscoring several top-10 players. Yet, the standout performer is David Howell, with an average score of 0.9071. Despite his tendency to withdraw or join late to tournaments, this strategy seems to benefit him as he avoids facing high-performing players in later rounds. With a record of 120 wins, 14 draws, and only 6 losses, Howell clearly dominates the field.
 
@@ -94,6 +74,7 @@ get_opening_count(london)
 >>Move: c1->f4, Count: 707
 >>Move: e7->e6, Count: 173
 ```
+
 We have 70.000 occurences of d2 to d4 in our dataset. Suprisingly, (at least to me) d5 is not the most common response to d4, but rather Nf6, the Indian defense. 
 
 Similarly, we can look at the Fools Mate: 
@@ -106,7 +87,7 @@ There is one occurence of a player actually playing g2 to g4. Guess who played t
 
 ## Novelty Timing
 <div align="center">
-<img src="./Plots/average_move_number_until_novelty_by_elo.png" width = "600">
+<img src="../assets/images/average_move_number_until_novelty_by_elo.png" width = "600">
 </div>
 
 So when do players actually play a novelty on average? We see a very clear trend. The higher the elo, the later the novelty. This makes sense, as the higher the elo, the more theory is known. However, the gains for an increasing elo are diminishing. We see that a 1900 is on average "in theory" until move 6.3 In contrast, a 3000 elo player stays in theory until move 8. While this difference is significant, it is not as big as one would expect. One more fun observation we make is what I would coin the GOAT effect. The last two pawns are driven mainly by two players. Magnus Carlsen and Hikaru Nakamura. The two players with the highest elo in our dataset. They don't need to stay in theory to win a game, so they love messing around and drop out of theory much faster than other players. White is also much longer in theory than black. If white plays a novelty on move 10, black is also out of theory on move 10. In constrast, when black plays a novelty on move 10, white is "in theory" until move 11.
@@ -119,7 +100,7 @@ Vladimir Kramnik contends that players exhibit higher accuracy levels against hi
 What's more important for your own accuracy? Your rating, or the differential between your and your opponents rating? 
 
 <div align="center">
-<img title="a title" alt="Alt text" src="./Plots/best_move_rate_by_rating_and_rating_differential.png" width = "600">
+<img title="a title" alt="Alt text" src="../assets/images/best_move_rate_by_rating_and_rating_differential.png" width = "600">
 </div>
 
 The left plot in Figure 1 depicts the percentage of moves aligning with the top engine recommendations across five different Elo groups. Surprisingly, there's minimal variance between a 2000-Elo player and a 3000-Elo player in terms of adhering to engine-recommended moves. After an initial divergence in the opening phase, the curve settles at around a 45% concurrence rate with the top engine moves.
@@ -131,7 +112,7 @@ So when Kramnik compares his opponents accuracy to the accuracy of Hikaru or Mag
 In summary, the observed discrepancy in opponent accuracy isn't necessarily indicative of cheating. Rather, it appears to be a function of the Elo differential, which has a pronounced impact on the likelihood of playing engine-recommended moves. This analysis suggests that Kramnik's concerns, while understandable, may be based on an incomplete understanding of the dynamics at play.
 
 <div align = "center">
-<img src="./Plots/combined_plot.png" alt="Combined Plot" width="800" style="margin-right: 20px;">
+<img src="../assets/images/combined_plot.png" alt="Combined Plot" width="800" style="margin-right: 20px;">
 </div>
 
 Figure 2 presents a comprehensive view by breaking down performance into three key variables: the frequency of blunders, the rate of optimal moves, and the average loss per move. Across all these variables, the Elo differential—rather than the player's individual Elo rating—stands out as the dominant predictive factor.
@@ -144,7 +125,7 @@ In summary, all variables show a consistent trend: players perform better agains
 
 ## Performance by Player
 <div align = "center">
-<img title="a title" alt="Alt text" src="./Plots/player_combined_plot.png" width = "800">
+<img title="a title" alt="Alt text" src="../assets/images/player_combined_plot.png" width = "800">
 </div>
 
 The left plot, illustrating average loss per move by player rating, reveals a distinctly non-linear trend. Higher Elo ratings are associated with lower average losses. However, this metric is subject to a multitude of confounding variables, such as the Elo differential between opponents and the duration of endgames, which are not accounted for in this plot.
@@ -212,7 +193,7 @@ They're all right! Expect for the one guy who said I'm a cheater myself 🤔. I 
 
 So what does the data tell us? 
 <div align = "center">
-<img title="a title" alt="Alt text" src="./Plots/expectation_plot.png" width = "800">
+<img title="a title" alt="Alt text" src="../assets/images/expectation_plot.png" width = "800">
 </div>
 
 The plot features a red line, representing a linear model that predicts the percentage of games where players score higher than 80%. The two dashed lines indicate a 2SD (two standard deviations) confidence interval. Players exceeding this 2SD threshold are highlighted in red.
