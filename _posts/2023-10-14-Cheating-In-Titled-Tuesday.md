@@ -30,7 +30,7 @@ Table 1 presents the number of games played by selected players throughout the y
 Similarly, we can look at the players with the highest draw rate and best average game results!
 
 
-|                    **Best Performing Players**                 ||                    **Most Drawish Players**          |
+|        **Best Performing Players**         |                      |         **Most Drawish Players**          |
 |:--------------------:|:-----------------------:|:-------------:||:-----------------:|:-----------------:|:------------:|
 | **Player**           | **Full Name**           | **Avg Result**|| **Player**        | **Full Name**     | **Draw Rate**|
 | howitzer14           | GM David Howell         | 90.71%        || Schattman         | FM Florian Gatterer| 31.60%      |
@@ -203,10 +203,10 @@ As the plot shows, numerous players fall outside the 2SD range, making them "sus
 Notably, fewer players are flagged for "suspiciously" poor performance. This is due to the linear model predicting negative percentages for players with Elo ratings below 2500, effectively setting a lower bound at 0%.
 
 ### Implications
-1. **Target for Further Investigation**: Players exceeding the 2SD threshold, like Magnus, could warrant further scrutiny if one were to conduct a more detailed analysis.
+1. **Target for Further Investigation**: Players exceeding the 2SD threshold could warrant further scrutiny if one were to conduct a more detailed analysis. I would start with Magnus 🙃.
 
-2. **No Systematic Cheating**: There's no evidence to suggest a large-scale, systematic effort among players to cheat consistently.
+2. **No Systematic Cheating**: There's no evidence to suggest a large-scale, systematic effort among players to cheat consistently. 
 
 ### Final Thoughts
-Given the various controls and considerations in this analysis, it provides a strong counter-argument to Kramnik's claim of rampant cheating. It suggests that while outliers do exist, they are not necessarily indicative of widespread unethical behavior.
+Given the various controls and considerations in this analysis, it provides a strong counter-argument to Kramnik's claim of rampant cheating. It suggests that while outliers do exist, they are not necessarily indicative of widespread unethical behavior. 
 
