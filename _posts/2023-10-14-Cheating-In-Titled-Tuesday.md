@@ -135,7 +135,7 @@ Yet, the left plot exposes a glaring inconsistency in Kramnik's performance. Des
 ## Investigation
 First and foremost, it's important to acknowledge the expertise of Chess.com in identifying and mitigating cheating. They have access to a wealth of data and sophisticated algorithms that far surpass the scope of this analysis. The goal here is not to pinpoint cheaters but to assess the claim that widespread cheating significantly impacts online chess games.
 
-#### What This Analysis Can't Capture
+### What This Analysis Can't Capture
 - Single-Game Anomalies: The methodology relies on examining performance trends across multiple games. It doesn't focus on individual games where a player might have a 'miracle run,' executing a flawless series of moves. Such instances are part of the natural variability in chess and do not necessarily indicate cheating.
 - Single-Move Cheating: The analysis is not designed to detect players who may cheat on just one move per game. The logistical complexities of consistently cheating on a single move make this an unlikely scenario. Inputting moves into an engine or relying on browser extensions would likely result in more widespread cheating due to the temptation of having the 'perfect move' readily available.
 
@@ -198,11 +198,10 @@ As the plot shows, numerous players fall outside the 2SD range, making them "sus
 
 Notably, fewer players are flagged for "suspiciously" poor performance. This is due to the linear model predicting negative percentages for players with Elo ratings below 2500, effectively setting a lower bound at 0%.
 
-### Implications
+# Implications & Final Thoughts
 1. **Target for Further Investigation**: Players exceeding the 2SD threshold could warrant further scrutiny if one were to conduct a more detailed analysis. I would start with Magnus 🙃.
 
 2. **No Systematic Cheating**: There's no evidence to suggest a large-scale, systematic effort among players to cheat consistently. 
-
-### Final Thoughts
+   
 Given the various controls and considerations in this analysis, it provides a strong counter-argument to Kramnik's claim of rampant cheating. It suggests that while outliers do exist, they are not necessarily indicative of widespread unethical behavior. 
 
