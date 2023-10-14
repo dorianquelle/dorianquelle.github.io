@@ -20,9 +20,6 @@ The analysis is based on data collected from all early and late Titled Tuesday t
 ## Player Activity
 Table 1 presents the number of games played by selected players throughout the year. GM Sergei Zhigalko and IM Nikolai Vlassov are in a deadlock for the top spot, each having participated in 756 games. GM Hikaru Nakamura leads among the well-known players, ranking 21st with 579 games, while IM Eric Rosen and GM Magnus Carlsen have played notably fewer games, at 334 and 289 respectively.
 
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 60%">
 |    **Player**   | **Games** | **Full Name** |**Rank** |
 |:---------------:|:---------:|:--------:|:--------:|
 | Zhigalko_Sergei |    756    |     GM Sergei Zhigalko   |     1    |
@@ -33,7 +30,6 @@ Table 1 presents the number of games played by selected players throughout the y
 |  MagnusCarlsen  |    289    |    GM Magnus Carlsen   |  208    |
 |   GothamChess   |    185    |    IM Levy Rozman   |   406    |
 |  AlexandraBotez |     54    |   WFM Alexandra Botez   |   1391   |
-</div>
 
 ## Peformance Metrics
 
