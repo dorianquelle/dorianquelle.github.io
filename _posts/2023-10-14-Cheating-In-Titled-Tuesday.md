@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: wide
 title: "Analysis of Cheating In Titled Tuesday"
 date: 2023-10-13
 categories: [blog]
-asses: wide
+toc: true
 ---
 # Introduction
 On September 14th, the Csquared Podcast welcomed Vladimir Kramnik, the former World Chess Champion, for a candid conversation about the increasing prevalence of cheating in online chess. Over the course of two engaging hours, Kramnik expressed his concern over the rampant cheating issue, even hinting that he himself has been disproportionately targeted on Chess.com. To examine the veracity of these claims, this article delves into data from 90 Titled Tuesday tournaments.
