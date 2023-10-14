@@ -1,5 +1,5 @@
 ---
-layout: wide
+classes: wide
 title: "Analysis of Cheating In Titled Tuesday"
 date: 2023-10-13
 categories: [blog]
