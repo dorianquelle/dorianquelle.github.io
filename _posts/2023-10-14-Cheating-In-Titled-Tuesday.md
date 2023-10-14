@@ -1,9 +1,13 @@
 ---
-classes: wide
+classes: 
+    - wide
+    - dark-theme
 title: "Analysis of Cheating In Titled Tuesday"
 date: 2023-10-13
 categories: [blog]
 toc: true
+toc_label: "Table of Contents"
+excerpt: "An in depth computational analysis of cheating in Chess.com Title Tuesday tournaments!"
 ---
 # Introduction
 On September 14th, the Csquared Podcast welcomed Vladimir Kramnik, the former World Chess Champion, for a candid conversation about the increasing prevalence of cheating in online chess. Over the course of two engaging hours, Kramnik expressed his concern over the rampant cheating issue, even hinting that he himself has been disproportionately targeted on Chess.com. To examine the veracity of these claims, this article delves into data from 90 Titled Tuesday tournaments.
@@ -90,6 +94,7 @@ There is one occurence of a player actually playing g2 to g4. Guess who played t
 
 So when do players actually play a novelty on average? We see a very clear trend. The higher the elo, the later the novelty. This makes sense, as the higher the elo, the more theory is known. However, the gains for an increasing elo are diminishing. We see that a 1900 is on average "in theory" until move 6.3 In contrast, a 3000 elo player stays in theory until move 8. While this difference is significant, it is not as big as one would expect. One more fun observation we make is what I would coin the GOAT effect. The last two pawns are driven mainly by two players. Magnus Carlsen and Hikaru Nakamura. The two players with the highest elo in our dataset. They don't need to stay in theory to win a game, so they love messing around and drop out of theory much faster than other players. White is also much longer in theory than black. This is essentially an artefact of how I chose to define a novelty. If white plays a novelty on move 10, black is also out of theory on move 10. In constrast, when black plays a novelty on move 10, white is "in theory" until move 11. 
 
+# Results
 ## Performance by Rating
 
 Vladimir Kramnik contends that players exhibit higher accuracy levels against him compared to when they face off against Hikaru Nakamura or Magnus Carlsen. At first glance, this could be interpreted as evidence of cheating. However, before jumping to conclusions, let's consider the underlying factors that could influence this phenomenon.
