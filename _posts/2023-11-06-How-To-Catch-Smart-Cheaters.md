@@ -47,15 +47,15 @@ To match players with their FIDE rating, I downloaded a complete list of all tit
 Subsequently, I downloaded all the information about these players from their Chess.com profiles. Most players list their real name and their Federation on their profile. I used this information to match the players with their FIDE rating. Fide publishes the entire data-set of all rated players on their website. To match the two data-sets I aligned their names and used fuzzy searching to find the closest match in the Fide data-set. In total 6.872 had a *very* close match in the FIDE list, with their federation and title matching up.
 
 <div align="center">
-<!-- <img src="../assets/images/MatchedPlayersByCountry.png" style="width: 100%;"> -->
-<img src="../blog/assets/images/MatchedPlayersByCountry.png" style="width: 100%;">
+<img src="../assets/images/MatchedPlayersByCountry.png" style="width: 100%;">
+<!-- <img src="../blog/assets/images/MatchedPlayersByCountry.png" style="width: 100%;"> -->
 </div>
 
 There are dozens of articles online discussing whether and how Lichess and Chess.com ratings correspond to FIDE ratings. Please do not overinterpret the following gif. It is only supposed to show how strong the corelation between the two variables are and will not tell you what your FIDE rating would be.
 
 <div align="center">
-<!-- <img src="../assets/images/chess_ratings_animation_paused.png" style="width: 100%;"> -->
-<img src="../blog/assets/images/chess_ratings_animation_paused.gif" style="width: 100%;">
+<img src="../assets/images/chess_ratings_animation_paused.png" style="width: 100%;"> 
+<!-- <img src="../blog/assets/images/chess_ratings_animation_paused.gif" style="width: 100%;">-->
 </div>
 
 
@@ -63,8 +63,8 @@ There are dozens of articles online discussing whether and how Lichess and Chess
 To establish an offline baseline, I used the [Opening Master Database](https://www.openingmaster.com/chess-databases/om-otb) containing roughly 10 million historical and contemporary games played. I filtered this database to only include matches from Blitz or Rapid tournaments. This resulted in a list of 232.881 offline games. It shows three regresssions of chess.com ratings with the Fide Blitz, Rapid and Classical ratings. In general, Chess.com ratings are always higher than their Fide counterparts and the rating difference decreases with a higher rating. 
 
 <div align="center">
-<!--- <img src="../assets/images/MatchedPlayersByRegion.png" style="width: 100%;"> --->
-<img src="../blog/assets/images/MatchedPlayersByRegion.png" style="width: 100%;">
+<img src="../assets/images/MatchedPlayersByRegion.png" style="width: 100%;"> 
+<!--- <img src="../blog/assets/images/MatchedPlayersByRegion.png" style="width: 100%;">--->
 </div>
 
 This map showcases all games played in the offline data-base. The scatter points in Europe and the US are roughly proportional to the number of games played in this location. If your city is missing - I'm sorry, it probably has multiple ways of spelling it and is therefore not being matched. 
@@ -126,8 +126,8 @@ This table shows the top players (ranked according to their performace) for all 
 Ideally, ELO predictions should line up extremely closely with the empiricial results that we see. If we predict that a player has an expected score of 0.2 - averaged over a large number of games - the observed score should be exactly 0.2. But in reality, ELO suffers from significant biases. See for example, the  chess statisticians [Jeff Sonas'](https://en.wikipedia.org/wiki/Jeff_Sonas) [investigation](https://www.fide.com/docs/presentations/Sonas%20Proposal%20-%20Repairing%20the%20FIDE%20Standard%20Elo%20Rating%20System.pdf) into the ELO system. Players with a low expected score consistently outperform their expected score, while players with a high expected score consistently underperform their expected score.
 
 <div align="center">
-<!--- <img src="../assets/images/ExpectedResultComparison.png" style="width: 100%;">--->
-<img src="../blog/assets/images/ExpectedResultComparison.png" style="width: 100%;"> 
+<img src="../assets/images/ExpectedResultComparison.png" style="width: 100%;">--->
+<!--- <img src="../blog/assets/images/ExpectedResultComparison.png" style="width: 100%;"> --->
 </div>
 Note: I calculate the expected score always based on the winning probability of white - as the fomulae does not take into account the fact that white is more likely to win, the expected score is slightly overestimated.
 
@@ -137,8 +137,8 @@ We see the same error for Chess.com. Even with much higher activity, a more soph
 As cheaters will have a rating that is higher than their true rating, we need an external data-source for the ratings. As discussed in the introduction, we downloaded all available FIDE ratings, and matched them to the Chess.com ratings. 
 
 <div align="center">
-<!--- <img src="../assets/images/Online_ExpectedResultComparison.png" style="width: 100%;"> --->
-<img src="../blog/assets/images/Online_ExpectedResultComparison.png" style="width: 100%;">
+<img src="../assets/images/Online_ExpectedResultComparison.png" style="width: 100%;">
+<!--- <img src="../blog/assets/images/Online_ExpectedResultComparison.png" style="width: 100%;"> --->
 </div>
 
 The figure displays the calibration of the Chess.com ratings compared to different FIDE ratings. Unsuprisingly, best data-source are the Chess.com ratings with a mean absolute error of 0.35. In second place are the FIDE Blitz ratings with a mean absolute error of 0.38. The FIDE Standard and Rapid ratings are slighly worse with a mean absolute error of 0.39. The fact that the FIDE ratings are roughly comparable to the Chess.com ratings in terms of calibration is a great sign, as it means that we can use the Fide ratings to estimate the expected score of a game.
@@ -147,8 +147,8 @@ The figure displays the calibration of the Chess.com ratings compared to differe
 Before running any statistical tests, we'll first have a look at the error over time.
 
 <div align="center">
-<!--- <img src="../assets/images/ErrorOverTime.png" style="width: 100%;"> --->
-<img src="../blog/assets/images/ErrorOverTime.png" style="width: 100%;">
+<img src="../assets/images/ErrorOverTime.png" style="width: 100%;">
+<!--- <img src="../blog/assets/images/ErrorOverTime.png" style="width: 100%;"> --->
 </div>
 
 The figure shows the error of four different conditions. First, the blue line represents the prediction error using the Chess.com ratings. Second, the green, red, and yellow lines represent the error over time using the official fide ratings for the online games. Lastly, the black line shows the error over time for the offline games. We see that the error of the Chess.com ratings is consistently lower than the error for online games with FIDE ratings. As Chess.com ratings are much more accurate due to a higher activity online, this is not surprising. However, we also see that the error for the offline games is lower than the error for the online games. Visually we do not see any difference between the pre-hype and the post hype period. 
@@ -170,8 +170,8 @@ To test whether there is a significant difference between the change in error be
 | **R2**             | 0.001            | 0.005             | 0.008                | 0.006             |
 
 <div align="center">
-<!--- <img src="../assets/images/OnlineOfflineComparisonDiD.png" style="width: 100%;"> --->
-<img src="../blog/assets/images/OnlineOfflineComparisonDiD.png" style="width: 100%;">
+<img src="../assets/images/OnlineOfflineComparisonDiD.png" style="width: 100%;"> 
+<!--- <img src="../blog/assets/images/OnlineOfflineComparisonDiD.png" style="width: 100%;">--->
 </div>
 
 The figure displays the results from all four regressions (Comparing the prediction error using chess.com, Blitz, Rapid, and Classical ratings). In no condition do we find any evidence of cheating. Quite the opposite, the error actually drops for the online condition, while it rises for the offline conditions. 
@@ -191,8 +191,8 @@ I simulated a tournament of 500 players playing 22 rounds (early and late titled
 The right pane shows the average prediction error for a given Number of Cheaters and Cheater Elo combination. The left-most pane shows the percentage of times that a simple t-test detected a significant change in the prediction error for each tournament at a 5% (left) and a 1% (center) confidence level. 
 
 <div align="center">
-<!--- <img src="../assets/images/cheating_simualation.png" style="width: 100%;"> --->
-<img src="../blog/assets/images/cheating_simulation.png" style="width: 100%;">
+<img src="../assets/images/cheating_simualation.png" style="width: 100%;"> 
+<!--- <img src="../blog/assets/images/cheating_simulation.png" style="width: 100%;">--->
 </div>
 
 We are already able to detect cheating with relative confidence when only 10/500 people are cheating. If 10% of people are cheating, we can detect it with almost 100% confidence, even if the cheaters are "only" playing at a level of 2600 Elo.
