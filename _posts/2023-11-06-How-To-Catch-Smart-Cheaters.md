@@ -54,7 +54,7 @@ Subsequently, I downloaded all the information about these players from their Ch
 There are dozens of articles online discussing whether and how Lichess and Chess.com ratings correspond to FIDE ratings. Please do not overinterpret the following gif. It is only supposed to show how strong the corelation between the two variables are and will not tell you what your FIDE rating would be.
 
 <div align="center">
-<img src="../assets/images/chess_ratings_animation_paused.png" style="width: 100%;"> 
+<img src="../assets/images/chess_ratings_animation_paused.gif" style="width: 100%;"> 
 <!-- <img src="../blog/assets/images/chess_ratings_animation_paused.gif" style="width: 100%;">-->
 </div>
 
@@ -191,7 +191,7 @@ I simulated a tournament of 500 players playing 22 rounds (early and late titled
 The right pane shows the average prediction error for a given Number of Cheaters and Cheater Elo combination. The left-most pane shows the percentage of times that a simple t-test detected a significant change in the prediction error for each tournament at a 5% (left) and a 1% (center) confidence level. 
 
 <div align="center">
-<img src="../assets/images/cheating_simualation.png" style="width: 100%;"> 
+<img src="../assets/images/cheating_simulation.png" style="width: 100%;"> 
 <!--- <img src="../blog/assets/images/cheating_simulation.png" style="width: 100%;">--->
 </div>
 
