@@ -116,6 +116,7 @@ Now that we have the complete data - we can look at the overall performance of e
 | Polish_fighter3000 | 3083 (+35) | 77.20% |
 | FairChess_on_YouTube | 3079 (+67) | 76.37% |
 | Duhless | 3077 (+50) | 76.13% |
+
 <!--| LyonBeast | 3073 (+86) | 77.75% |-->
 <!--| Grischuk | 3062 (+24) | 75.10% |-->
 <!--| howitzer14 | 3053 (+102) | 83.55% |-->
