@@ -116,11 +116,12 @@ Now that we have the complete data - we can look at the overall performance of e
 | Polish_fighter3000 | 3083 (+35) | 77.20% |
 | FairChess_on_YouTube | 3079 (+67) | 76.37% |
 | Duhless | 3077 (+50) | 76.13% |
-| LyonBeast | 3073 (+86) | 77.75% |
-| Grischuk | 3062 (+24) | 75.10% |
-| howitzer14 | 3053 (+102) | 83.55% |
+<!--| LyonBeast | 3073 (+86) | 77.75% |-->
+<!--| Grischuk | 3062 (+24) | 75.10% |-->
+<!--| howitzer14 | 3053 (+102) | 83.55% |-->
 
-This table shows the top players (ranked according to their performace) for all Titled Tuesday games. In parenthesis, I show the difference of the performance to the players average ELO. Magnus dominates the field. He's the only player exceeding an overall peformance of 3200 elo. Hikaru, Artemiev, Nepomniachtchi, and So exceed 3100. Firouzja and Caruana just miss this eilte club with a performance of 3092 and 3091 respectively. The 13th highest performing player is David Howell, reaching a performnce of 3053. However he is the player with the highest average score per game out of all players, outperforming Magns and Hikaru even though he has 200 points lower performance. 
+This table shows the top players (ranked according to their performace) for all Titled Tuesday games. In parenthesis, I show the difference of the performance to the players average ELO. Magnus dominates the field. He's the only player exceeding an overall peformance of 3200 elo. Hikaru, Artemiev, Nepomniachtchi, and So exceed 3100. Firouzja and Caruana just miss this eilte club with a performance of 3092 and 3091 respectively. 
+<!-- The 13th highest performing player is David Howell, reaching a performnce of 3053. However he is the player with the highest average score per game out of all players, outperforming Magns and Hikaru even though he has 200 points lower performance. -->
 
 ## Elo Rating - Calibration
 Ideally, ELO predictions should line up extremely closely with the empiricial results that we see. If we predict that a player has an expected score of 0.2 - averaged over a large number of games - the observed score should be exactly 0.2. But in reality, ELO suffers from significant biases. See for example, the  chess statisticians [Jeff Sonas'](https://en.wikipedia.org/wiki/Jeff_Sonas) [investigation](https://www.fide.com/docs/presentations/Sonas%20Proposal%20-%20Repairing%20the%20FIDE%20Standard%20Elo%20Rating%20System.pdf) into the ELO system. Players with a low expected score consistently outperform their expected score, while players with a high expected score consistently underperform their expected score.
