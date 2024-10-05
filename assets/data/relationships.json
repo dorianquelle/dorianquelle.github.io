@@ -1,0 +1,1786 @@
+[
+  {
+    "character1": "Johannes Kepler",
+    "character2": "Katharina Kepler",
+    "type": "family",
+    "year": "1617",
+    "location": "Germany",
+    "notes": "Johannes is devoted to defending his mother during her witchcraft trial."
+  },
+  {
+    "character1": "Johannes Kepler",
+    "character2": "Tycho Brahe",
+    "type": "professional",
+    "year": "1600",
+    "location": "Prague",
+    "notes": "Kepler apprenticed and worked under Tycho, inheriting his data upon Tycho's death."
+  },
+  {
+    "character1": "Johannes Kepler",
+    "character2": "Galileo Galilei",
+    "type": "professional",
+    "year": "1610",
+    "location": "Italy/Germany",
+    "notes": "Kepler corresponded with Galileo, sharing ideas about heliocentrism."
+  },
+  {
+    "character1": "Johannes Kepler",
+    "character2": "Christoph Besold",
+    "type": "social",
+    "year": "Around 1610s",
+    "location": "T\u00fcbingen",
+    "notes": "Besold supported Kepler during his education and later helped him against witch trial accusations."
+  },
+  {
+    "character1": "Katharina Kepler",
+    "character2": "Ursula Reinhold",
+    "type": "antagonistic",
+    "year": "1617",
+    "location": "Kepler's hometown",
+    "notes": "Ursula's animosity towards Katharina leads to the witchcraft accusations."
+  },
+  {
+    "character1": "Johannes Kepler",
+    "character2": "Emperor Rudolph II",
+    "type": "professional",
+    "year": "Before 1612",
+    "location": "Prague",
+    "notes": "Kepler served as royal mathematician under Emperor Rudolph II until the latter's death."
+  },
+  {
+    "character1": "Johannes Kepler",
+    "character2": "Albert Einstein",
+    "type": "influential",
+    "year": "1905",
+    "location": "Germany",
+    "notes": "Einstein's theories build on the foundations laid by Kepler\u2019s laws."
+  },
+  {
+    "character1": "Maria Mitchell",
+    "character2": "William Mitchell",
+    "type": "family",
+    "year": "1818-1889",
+    "location": "Nantucket, Massachusetts",
+    "notes": "Father-daughter relationship; William encouraged Maria's scientific pursuits."
+  },
+  {
+    "character1": "Maria Mitchell",
+    "character2": "Lydia Mitchell",
+    "type": "family",
+    "year": "1818-1889",
+    "location": "Nantucket, Massachusetts",
+    "notes": "Mother-daughter relationship; Lydia named Maria after a progressive author."
+  },
+  {
+    "character1": "Ralph Waldo Emerson",
+    "character2": "Maria Mitchell",
+    "type": "social",
+    "year": "1831",
+    "location": "Concord, Massachusetts",
+    "notes": "Both prominent figures; Emerson visited Nantucket."
+  },
+  {
+    "character1": "Caroline Herschel",
+    "character2": "Maria Mitchell",
+    "type": "inspirational",
+    "year": "1847-1889",
+    "location": "Nantucket, Massachusetts",
+    "notes": "Caroline served as an important role model for women in astronomy."
+  },
+  {
+    "character1": "Mark Twain",
+    "character2": "Halley's Comet",
+    "type": "historical",
+    "year": "1835-1910",
+    "location": "Missouri",
+    "notes": "Twain's birth and death coincided with the comet's appearances."
+  },
+  {
+    "character1": "Maria Mitchell",
+    "character2": "Frederick Douglass",
+    "type": "Friendship",
+    "year": "1841",
+    "location": "Nantucket, Massachusetts",
+    "notes": "Douglas delivered his first public speech, which Mitchell would cherish."
+  },
+  {
+    "character1": "Maria Mitchell",
+    "character2": "William Lloyd Garrison",
+    "type": "Social",
+    "year": "1841",
+    "location": "Nantucket, Massachusetts",
+    "notes": "Garrison praised Douglass's speech after it concluded."
+  },
+  {
+    "character1": "Maria Mitchell",
+    "character2": "Ralph Waldo Emerson",
+    "type": "Professional, Social",
+    "year": "1840s",
+    "location": "Nantucket, Massachusetts",
+    "notes": "Mitchell taught Emerson how to use a telescope."
+  },
+  {
+    "character1": "Ralph Waldo Emerson",
+    "character2": "Maria Mitchell",
+    "type": "Professional, Social",
+    "year": "1840s",
+    "location": "Nantucket, Massachusetts",
+    "notes": "Emerson gave lectures that influenced Mitchell's thoughts on beauty."
+  },
+  {
+    "character1": "Maria Mitchell",
+    "character2": "Ida Russell",
+    "type": "Friendship, Possible Romantic",
+    "year": "19th century",
+    "location": "Milton, Massachusetts",
+    "notes": "Intensely close friendship; possibly the love of Maria's life."
+  },
+  {
+    "character1": "Ida Russell",
+    "character2": "Maria Mitchell",
+    "type": "Friendship, Emotional Bond",
+    "year": "19th century",
+    "location": "Milton, Massachusetts",
+    "notes": "Mitchell cherished her feelings expressed in her diary."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Ralph Waldo Emerson",
+    "type": "Professional, Social",
+    "year": "19th century",
+    "location": "Boston, Massachusetts",
+    "notes": "Fuller held insightful Conversations that influenced many, including Mitchell."
+  },
+  {
+    "character1": "Maria Mitchell",
+    "character2": "Nathaniel Hawthorne",
+    "type": "Professional, Social",
+    "year": "1857",
+    "location": "Liverpool, England",
+    "notes": "Mitchell met Hawthorne during her trip to Europe."
+  },
+  {
+    "character1": "Nathaniel Hawthorne",
+    "character2": "Sophia Hawthorne",
+    "type": "Marriage",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Hawthorne\u2019s wife, actively involved in arts and social issues."
+  },
+  {
+    "character1": "Maria Mitchell",
+    "character2": "Elizabeth Barrett Browning",
+    "type": "Cultural Influence",
+    "year": "19th century",
+    "location": "Italy, England",
+    "notes": "Both were prominent figures in their respective fields and shared similar values."
+  },
+  {
+    "character1": "Maria Mitchell",
+    "character2": "Ida Russell",
+    "type": "social",
+    "year": "1840s",
+    "location": "Boston",
+    "notes": "Their relationship was intimate; they met at one of Margaret Fuller's Conversations."
+  },
+  {
+    "character1": "Nathaniel Hawthorne",
+    "character2": "Sophia Peabody",
+    "type": "romantic",
+    "year": "1842",
+    "location": "United States",
+    "notes": "They were engaged and later married."
+  },
+  {
+    "character1": "Nathaniel Hawthorne",
+    "character2": "Ida Russell",
+    "type": "antagonistic",
+    "year": "1841",
+    "location": "United States",
+    "notes": "Hawthorne was jealous of the relationship between Sophia and Ida."
+  },
+  {
+    "character1": "Herman Melville",
+    "character2": "Nathaniel Hawthorne",
+    "type": "romantic",
+    "year": "1850",
+    "location": "Berkshires, Massachusetts",
+    "notes": "Intellectual infatuation leading to a close friendship, possibly romantic."
+  },
+  {
+    "character1": "Herman Melville",
+    "character2": "Maria Mitchell",
+    "type": "social",
+    "year": "1852",
+    "location": "Nantucket",
+    "notes": "Melville visited her house; she is mentioned in a poem he wrote."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Nathaniel Hawthorne",
+    "type": "professional",
+    "year": "1840s",
+    "location": "United States",
+    "notes": "Fuller praised Hawthorne's early work."
+  },
+  {
+    "character1": "Virginia Woolf",
+    "character2": "Vita Sackville-West",
+    "type": "romantic",
+    "year": "1928",
+    "location": "United Kingdom",
+    "notes": "Woolf's novel _Orlando_ was inspired by Sackville-West."
+  },
+  {
+    "character1": "Mary Somerville",
+    "character2": "Maria Mitchell",
+    "type": "social",
+    "year": "19th century",
+    "location": "Scotland",
+    "notes": "Mitchell visited Somerville; both influential female scientists."
+  },
+  {
+    "character1": "Mary Somerville",
+    "character2": "Charles Babbage",
+    "type": "professional",
+    "year": "19th century",
+    "location": "United Kingdom",
+    "notes": "Somerville introduced Lovelace to Babbage."
+  },
+  {
+    "character1": "Mary Somerville",
+    "character2": "Ada Lovelace",
+    "type": "mentor/prot\u00e9g\u00e9",
+    "year": "19th century",
+    "location": "United Kingdom",
+    "notes": "Somerville tutored Lovelace in mathematics."
+  },
+  {
+    "character1": "Ada Lovelace",
+    "character2": "Charles Babbage",
+    "type": "professional",
+    "year": "19th century",
+    "location": "United Kingdom",
+    "notes": "Lovelace collaborated with Babbage on the Analytical Engine."
+  },
+  {
+    "character1": "Mary Somerville",
+    "character2": "Sir John Herschel",
+    "type": "professional",
+    "year": "19th century",
+    "location": "United Kingdom",
+    "notes": "Herschel wrote a letter commending Somerville's work."
+  },
+  {
+    "character1": "Maria Edgeworth",
+    "character2": "Mary Somerville",
+    "type": "social",
+    "year": "19th century",
+    "location": "United Kingdom",
+    "notes": "Edgeworth wrote a letter expressing admiration for Somerville's work."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Mary Somerville",
+    "type": "social",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Hosmer defended Somerville's contributions."
+  },
+  {
+    "character1": "Virginia Woolf",
+    "character2": "Robert Browning",
+    "type": "social",
+    "year": "20th century",
+    "location": "United Kingdom",
+    "notes": "Woolf commented on the public perception of the Brownings."
+  },
+  {
+    "character1": "Maria Mitchell",
+    "character2": "William Whewell",
+    "type": "professional",
+    "year": "19th century",
+    "location": "United Kingdom",
+    "notes": "Mitchell encountered Whewell during a visit to Trinity College."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "James Freeman Clarke",
+    "type": "Social",
+    "year": "1835",
+    "location": "Harvard Divinity School",
+    "notes": "Became close friends and collaborators in intellectual pursuits."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Anna Barker",
+    "type": "Romantic",
+    "year": "19th century",
+    "location": "New York",
+    "notes": "Fuller had a passionate bond with Barker, experiencing deep affection and shared intimacy."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Ralph Waldo Emerson",
+    "type": "Professional/Social",
+    "year": "19th century",
+    "location": "Concord",
+    "notes": "Emerson admired Fuller's intellect, and they shared a significant, albeit complex, relationship."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Elizabeth Peabody",
+    "type": "Professional/Social",
+    "year": "1835",
+    "location": "New England",
+    "notes": "Peabody introduced Fuller to Emerson, facilitating her entry into prominent intellectual circles."
+  },
+  {
+    "character1": "Caroline Herschel",
+    "character2": "Mary Somerville",
+    "type": "Professional",
+    "year": "19th century",
+    "location": "Royal Astronomical Society, UK",
+    "notes": "Both women were recognized for their contributions to astronomy."
+  },
+  {
+    "character1": "Richard Feynman",
+    "character2": "Arline",
+    "type": "Romantic",
+    "year": "1942",
+    "location": "New York Harbor",
+    "notes": "Feynman married Arline while she was battling tuberculosis, and they shared a profound love."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Thomas Wentworth Higginson",
+    "type": "professional",
+    "year": "1830s",
+    "location": "United States",
+    "notes": "Higginson supported Fuller\u2019s work and wrote about her contributions."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Emily Dickinson",
+    "type": "social",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Dickinson admired Fuller\u2019s work and ethos."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Caroline Sturgis",
+    "type": "romantic",
+    "year": "1839",
+    "location": "Seaside Resort",
+    "notes": "Had an intensely emotional romantic relationship."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Samuel Ward",
+    "type": "romantic",
+    "year": "1835",
+    "location": "United States",
+    "notes": "Developed an initial friendship that turned into unreciprocated romantic feelings."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Anna Barker",
+    "type": "romantic",
+    "year": "1839",
+    "location": "United States",
+    "notes": "An intense romantic bond that influenced Fuller heavily."
+  },
+  {
+    "character1": "Samuel Ward",
+    "character2": "Anna Barker",
+    "type": "romantic",
+    "year": "1839",
+    "location": "United States",
+    "notes": "Began an engagement which hurt Fuller deeply."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Bronson Alcott",
+    "type": "professional",
+    "year": "1830s",
+    "location": "Boston, Massachusetts",
+    "notes": "Worked together in education; Alcott was a supporter of Fuller."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Margaret Fuller",
+    "type": "social",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Dickinson was inspired by Fuller\u2019s ideas and writings."
+  },
+  {
+    "character1": "Bronson Alcott",
+    "character2": "Margaret Fuller",
+    "type": "professional",
+    "year": "1839",
+    "location": "Temple School, Boston",
+    "notes": "Created a teaching environment that was conducive to progressive education."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Ralph Waldo Emerson",
+    "type": "romantic",
+    "year": "1840",
+    "location": "Concord, Massachusetts",
+    "notes": "Had a deep emotional bond that oscillated between friendship and romantic feelings."
+  },
+  {
+    "character1": "Lydian Emerson",
+    "character2": "Margaret Fuller",
+    "type": "social",
+    "year": "1840",
+    "location": "Concord, Massachusetts",
+    "notes": "Experienced jealousy towards Fuller due to her connection with Waldo."
+  },
+  {
+    "character1": "Ralph Waldo Emerson",
+    "character2": "Lydian Emerson",
+    "type": "family",
+    "year": "N/A",
+    "location": "Concord, Massachusetts",
+    "notes": "Husband and wife, with existing tensions due to Waldo's feelings for Margaret."
+  },
+  {
+    "character1": "Ralph Waldo Emerson",
+    "character2": "Ida Russell",
+    "type": "other",
+    "year": "N/A",
+    "location": "N/A",
+    "notes": "Indirect connection through social interactions within Fuller\u2019s circle."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Elizabeth Peabody",
+    "type": "professional",
+    "year": "1840",
+    "location": "Peabody's bookstore, Concord",
+    "notes": "Collaborated as part of the literary and intellectual circles during the Conversations."
+  },
+  {
+    "character1": "Caroline Healey Dall",
+    "character2": "Margaret Fuller",
+    "type": "professional",
+    "year": "N/A",
+    "location": "N/A",
+    "notes": "Joined Fuller\u2019s Conversations as an official scribe."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Beethoven",
+    "type": "Admiration",
+    "year": "1843",
+    "location": "Boston, Massachusetts",
+    "notes": "Wrote an impassioned letter expressing deep admiration for Beethoven."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "James Freeman Clarke",
+    "type": "Professional",
+    "year": "1843",
+    "location": "Nantucket, Massachusetts",
+    "notes": "Took a journey organized by Clarke, which became pivotal for her."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Elizabeth Peabody",
+    "type": "Social",
+    "year": "1843",
+    "location": "Boston, Massachusetts",
+    "notes": "Held conversations with Peabody, who influenced her thoughts on character."
+  },
+  {
+    "character1": "Julia Ward Howe",
+    "character2": "Maria Mitchell",
+    "type": "Social",
+    "year": "1875",
+    "location": "Vassar College",
+    "notes": "Met at a dome party hosted by Maria Mitchell."
+  },
+  {
+    "character1": "Lydia Maria Child",
+    "character2": "Margaret Fuller",
+    "type": "Professional",
+    "year": "1845",
+    "location": "Boston, Massachusetts",
+    "notes": "Lauded Fuller's work in public writings."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Frederick Douglass",
+    "type": "Supportive",
+    "year": "1845",
+    "location": "United States",
+    "notes": "Highlighted Douglass\u2019s work in her articles for social reform."
+  },
+  {
+    "character1": "Henry David Thoreau",
+    "character2": "Margaret Fuller",
+    "type": "Professional",
+    "year": "1843",
+    "location": "Concord, Massachusetts",
+    "notes": "Hero worshipped Fuller for her literary and intellectual prowess."
+  },
+  {
+    "character1": "Walt Whitman",
+    "character2": "Margaret Fuller",
+    "type": "Admirational",
+    "year": "1860s",
+    "location": "Brooklyn, New York",
+    "notes": "Welcomed Fuller's work and admired her intellect."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "James Nathan",
+    "type": "romantic",
+    "year": "1844",
+    "location": "New York, United States",
+    "notes": "Entered a relationship that caused emotional turmoil for Fuller."
+  },
+  {
+    "character1": "Maria Mitchell",
+    "character2": "Margaret Fuller",
+    "type": "intellectual admiration",
+    "year": "1845",
+    "location": "United States",
+    "notes": "Mitchell admired Fuller\u2019s pioneering work on women's rights."
+  },
+  {
+    "character1": "Horace Greeley",
+    "character2": "Margaret Fuller",
+    "type": "professional",
+    "year": "1845",
+    "location": "New York, United States",
+    "notes": "Fuller became the first female correspondent at Greeley's newspaper."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "George Sand",
+    "type": "admiration / social",
+    "year": "19th century",
+    "location": "Paris, France",
+    "notes": "Fuller admired Sand's defiance of social norms."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Adam Mickiewicz",
+    "type": "intellectual / possible romantic",
+    "year": "19th century",
+    "location": "Paris, France",
+    "notes": "Mickiewicz engaged Fuller in discussions about women's emancipation."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Maria Mitchell",
+    "type": "mentorship / inspiration",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Fuller served as an intellectual and philosophical model for Mitchell."
+  },
+  {
+    "character1": "Maria Mitchell",
+    "character2": "Mary Somerville",
+    "type": "admiration / professional",
+    "year": "19th century",
+    "location": "Europe",
+    "notes": "Mitchell viewed Somerville as a model of possibility for women in science."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Giovanni Angelo Ossoli",
+    "type": "romantic",
+    "year": "1847",
+    "location": "Rome, Italy",
+    "notes": "Their relationship began during a chance meeting at St. Peter's Cathedral."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Thomas Hicks",
+    "type": "romantic/infatuation",
+    "year": "1847",
+    "location": "Rome, Italy",
+    "notes": "Fuller projected her idealized feelings onto Hicks prior to her relationship with Ossoli."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Rebecca Spring",
+    "type": "friendship",
+    "year": "1847",
+    "location": "United States",
+    "notes": "Fuller confided her romantic feelings and experiences in letters to Rebecca."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Waldo",
+    "type": "friendship",
+    "year": "1847",
+    "location": "England",
+    "notes": "Emerson's letters showcased his ignorance of Fuller's relationship with Ossoli."
+  },
+  {
+    "character1": "Adam Mickiewicz",
+    "character2": "Margaret Fuller",
+    "type": "mentorship",
+    "year": "1847",
+    "location": "Europe",
+    "notes": "Mickiewicz encouraged Fuller to embrace her personal freedoms and rights."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "James Freeman Clarke",
+    "type": "friendship",
+    "year": "1847",
+    "location": "Harvard, United States",
+    "notes": "Clarke received a letter from Fuller discussing the depth of her affections."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Caroline Sturgis",
+    "type": "friendship",
+    "year": "1847",
+    "location": "United States",
+    "notes": "Fuller reflected on the changes in their lives and expressed concern about their friendship."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Emerson",
+    "type": "Social",
+    "year": "1840s",
+    "location": "United States",
+    "notes": "Corresponded about political and personal issues; Fuller feared losing Emerson after her transformation."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "William Channing",
+    "type": "Social",
+    "year": "1840s",
+    "location": "United States",
+    "notes": "Exchanged letters discussing Fuller\u2019s life changes and challenges."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Ossoli",
+    "type": "Romantic",
+    "year": "1848",
+    "location": "Rome, Italy",
+    "notes": "Fuller and Ossoli discussed their lives, marked by the complexities of war and her motherhood."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Angelo Eugene Philip Ossoli",
+    "type": "Family",
+    "year": "1848",
+    "location": "Italy",
+    "notes": "Fuller is the mother of Nino, whom she loves deeply despite the difficulties of motherhood."
+  },
+  {
+    "character1": "Waldo",
+    "character2": "Margaret Fuller",
+    "type": "Social",
+    "year": "1840s",
+    "location": "Concord, Massachusetts, United States",
+    "notes": "Emerson expressed concern over Fuller\u2019s transformations and their impact on their relationship."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Pope Pius IX",
+    "type": "Social",
+    "year": "1840s",
+    "location": "Rome, Italy",
+    "notes": "Became disillusioned with the Pope after his withdrawal of support for the Risorgimento."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Florence Nightingale",
+    "type": "Social",
+    "year": "Early 1850s",
+    "location": "Rome, Italy",
+    "notes": "Both women were prominent figures advocating for social reform and women's rights."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Robert Browning",
+    "type": "Social",
+    "year": "1850",
+    "location": "Florence, Italy",
+    "notes": "Met when Fuller sought to connect with literary figures in Italy."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Elizabeth Barrett Browning",
+    "type": "Social",
+    "year": "1850",
+    "location": "Florence, Italy",
+    "notes": "Admired Fuller\u2019s work and shared personal experiences of motherhood."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Nino",
+    "type": "Family",
+    "year": "1848",
+    "location": "Italy",
+    "notes": "Fuller\u2019s son, she had a profound bond with him and he represented her hopes."
+  },
+  {
+    "character1": "Captain Hasty",
+    "character2": "Margaret Fuller",
+    "type": "Professional",
+    "year": "1850",
+    "location": "At Sea",
+    "notes": "Captain of the ship Elizabeth, who died during the voyage."
+  },
+  {
+    "character1": "Charles Darwin",
+    "character2": "John Herschel",
+    "type": "professional",
+    "year": "1849",
+    "location": "England",
+    "notes": "Darwin was invited by Herschel to contribute to a scientific manual."
+  },
+  {
+    "character1": "Charles Darwin",
+    "character2": "Annie Darwin",
+    "type": "family",
+    "year": "1850",
+    "location": "England",
+    "notes": "Annie is Darwin's beloved daughter who fell gravely ill."
+  },
+  {
+    "character1": "Charles Darwin",
+    "character2": "Emma Darwin",
+    "type": "family",
+    "year": "1850",
+    "location": "England",
+    "notes": "Emma is Darwin's wife, who was pregnant during their daughter's illness."
+  },
+  {
+    "character1": "Annie Darwin",
+    "character2": "Charles Darwin",
+    "type": "family",
+    "year": "1851",
+    "location": "England",
+    "notes": "Annie died in Darwin's arms."
+  },
+  {
+    "character1": "Charles Darwin",
+    "character2": "Dr. James Gully",
+    "type": "professional",
+    "year": "1850",
+    "location": "England",
+    "notes": "Darwin sought Gully's alternative treatment methods for his daughter's illness."
+  },
+  {
+    "character1": "Charles Darwin",
+    "character2": "Florence Nightingale",
+    "type": "social",
+    "year": "19th century",
+    "location": "England",
+    "notes": "Both were involved with Dr. Gully's treatments."
+  },
+  {
+    "character1": "John Herschel",
+    "character2": "Maria Mitchell",
+    "type": "social",
+    "year": "1858",
+    "location": "Leeds, England",
+    "notes": "Mitchell visited Herschel during her European travels."
+  },
+  {
+    "character1": "Sophia Peabody",
+    "character2": "Nathaniel Hawthorne",
+    "type": "family",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Sophia is Nathaniel's wife."
+  },
+  {
+    "character1": "Mary Peabody",
+    "character2": "Horace Mann",
+    "type": "family",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Mary is married to Horace Mann, a prominent educational reformer."
+  },
+  {
+    "character1": "Charles Dickens",
+    "character2": "Catherine Dickens",
+    "type": "family",
+    "year": "19th century",
+    "location": "England",
+    "notes": "Catherine was Dickens's wife, and he was supportive of her health needs."
+  },
+  {
+    "character1": "Charles Dickens",
+    "character2": "Annie Darwin",
+    "type": "social",
+    "year": "1850",
+    "location": "Malvern, England",
+    "notes": "Dickens was present at the same medical spa as Darwin while his daughter was ill."
+  },
+  {
+    "character1": "John Herschel",
+    "character2": "Henry Fox Talbot",
+    "type": "Professional",
+    "year": "1839",
+    "location": "United Kingdom",
+    "notes": "Corresponded about photography and its terminology."
+  },
+  {
+    "character1": "Henry Fox Talbot",
+    "character2": "Sophia Peabody",
+    "type": "Social",
+    "year": "1835",
+    "location": "Italy",
+    "notes": "Talbot honeymooned in an area where Sophia Peabody would later paint."
+  },
+  {
+    "character1": "Sophia Peabody",
+    "character2": "Nathaniel Hawthorne",
+    "type": "Romantic",
+    "year": "N/A",
+    "location": "United States",
+    "notes": "Painted landscapes for Hawthorne during their courtship."
+  },
+  {
+    "character1": "Erasmus Darwin",
+    "character2": "James Watt",
+    "type": "Professional",
+    "year": "Late 18th century",
+    "location": "United Kingdom",
+    "notes": "Both members of the Lunar Men group."
+  },
+  {
+    "character1": "Henry Fox Talbot",
+    "character2": "Louis Daguerre",
+    "type": "Professional",
+    "year": "1839",
+    "location": "France",
+    "notes": "Talbot learned of Daguerre's announcement of the daguerreotype."
+  },
+  {
+    "character1": "Edward Charles Pickering",
+    "character2": "Williamina Fleming",
+    "type": "Professional",
+    "year": "Late 19th century",
+    "location": "United States",
+    "notes": "Hired Fleming for her superior mathematical skills at Harvard observatory."
+  },
+  {
+    "character1": "Williamina Fleming",
+    "character2": "Cecilia Payne",
+    "type": "Professional",
+    "year": "20th century",
+    "location": "United States",
+    "notes": "Both worked as computers at Harvard College Observatory."
+  },
+  {
+    "character1": "Frederick Douglass",
+    "character2": "Louis Daguerre",
+    "type": "Social",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Praised Daguerre\u2019s contributions to photography."
+  },
+  {
+    "character1": "Cecilia Payne",
+    "character2": "Sir Arthur Eddington",
+    "type": "Professional",
+    "year": "20th century",
+    "location": "United States",
+    "notes": "Payne inspired by Eddington's lecture before entering astronomy."
+  },
+  {
+    "character1": "William Parsons",
+    "character2": "Maria Mitchell",
+    "type": "Professional",
+    "year": "19th century",
+    "location": "Ireland",
+    "notes": "Respected astronomer whose telescope influenced Mitchell."
+  },
+  {
+    "character1": "John Adams Whipple",
+    "character2": "William Bond",
+    "type": "Professional",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Collaborated to advance astrophotography."
+  },
+  {
+    "character1": "Samuel Clemens",
+    "character2": "Mark Twain",
+    "type": "alias",
+    "year": "unknown",
+    "location": "Mississippi River, United States",
+    "notes": "Samuel Clemens adopted the pen name Mark Twain."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Cornelia Carr",
+    "type": "romantic",
+    "year": "1851",
+    "location": "St. Louis, Missouri, United States",
+    "notes": "Harriet's first romantic infatuation; lifelong friend."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Wayman Crow",
+    "type": "mentor/patron",
+    "year": "1851",
+    "location": "St. Louis, Missouri, United States",
+    "notes": "Cornelia's father; significant figure in Harriet's education and art."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "John Gibson",
+    "type": "mentor/professional",
+    "year": "1852",
+    "location": "Rome, Italy",
+    "notes": "Took Harriet under his tutelage as his sole student."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Charlotte Cushman",
+    "type": "friendship/mentor",
+    "year": "1851",
+    "location": "Boston, Massachusetts",
+    "notes": "Provided inspiration and encouragement to Harriet."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Fanny Kemble",
+    "type": "supportive friendship",
+    "year": "1852",
+    "location": "Rome, Italy",
+    "notes": "Recognized Harriet's artistic talent."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Maria Mitchell",
+    "type": "admiration",
+    "year": "1850s",
+    "location": "Rome, Italy",
+    "notes": "Admired Harriet's sculpture; shared a connection through art."
+  },
+  {
+    "character1": "Dr. Hosmer",
+    "character2": "Harriet Hosmer",
+    "type": "family",
+    "year": "1830s-1850s",
+    "location": "Massachusetts, United States",
+    "notes": "Father who provided Harriet with a strong education aligned with her interests."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Elizabeth Barrett Browning",
+    "type": "Mentorship",
+    "year": "1840s",
+    "location": "Rome, Italy",
+    "notes": "Hosmer viewed Barrett Browning as a maternal figure."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Robert Browning",
+    "type": "Mentorship",
+    "year": "1840s",
+    "location": "Rome, Italy",
+    "notes": "Robert Browning supported Hosmer's artistic endeavors."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Cornelia Dall",
+    "type": "Friendship",
+    "year": "1840s",
+    "location": "Rome, Italy",
+    "notes": "Frequent correspondence discussing art and life."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Charles Sumner",
+    "type": "Professional/Admiration",
+    "year": "1860s",
+    "location": "Boston, United States",
+    "notes": "Sumner praised Hosmer's work at exhibitions."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Edmonia Lewis",
+    "type": "Mentorship/Supportive",
+    "year": "1860s",
+    "location": "Rome, Italy",
+    "notes": "Hosmer welcomed and supported Lewis in her artistic endeavors."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Lady Ashburton",
+    "type": "Romantic",
+    "year": "1867",
+    "location": "Rome, Italy",
+    "notes": "Hosmer and Lady Ashburton formed a romantic relationship."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Louisa Ashburton",
+    "type": "Romantic/Partnership",
+    "year": "1867",
+    "location": "Rome, Italy",
+    "notes": "Both were patrons and partners in life, viewed each other as spouses."
+  },
+  {
+    "character1": "Mary Somerville",
+    "character2": "Harriet Hosmer",
+    "type": "Admiration/Professional",
+    "year": "1860s",
+    "location": "United States",
+    "notes": "Somerville celebrated Hosmer's work in her writings."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Hiram Powers",
+    "type": "Professional/Antagonistic",
+    "year": "1860s",
+    "location": "United States",
+    "notes": "Critiqued Powers for his romanticized depictions of female figures."
+  },
+  {
+    "character1": "Harriet Hosmer",
+    "character2": "Nathaniel Hawthorne",
+    "type": "Professional/Social",
+    "year": "1850s",
+    "location": "Italy",
+    "notes": "Hawthorne's works referenced Hosmer's sculptures."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Susan Gilbert Dickinson",
+    "type": "romantic",
+    "year": "1850",
+    "location": "Amherst, Massachusetts",
+    "notes": "Emily and Susan developed a deep, romantic relationship beginning with their close friendship."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Austin Dickinson",
+    "type": "sibling",
+    "year": "19th century",
+    "location": "Amherst, Massachusetts",
+    "notes": "Emily is the sister of Austin Dickinson, who later married Susan."
+  },
+  {
+    "character1": "Austin Dickinson",
+    "character2": "Susan Gilbert Dickinson",
+    "type": "romantic",
+    "year": "1856",
+    "location": "Amherst, Massachusetts",
+    "notes": "Austin marries Susan, creating tension in her relationship with Emily."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Margaret Fuller",
+    "type": "influential",
+    "year": "19th century",
+    "location": "New England",
+    "notes": "Emily was inspired by Margaret Fuller\u2019s literary and feminist contributions."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Pythagoras",
+    "type": "literary influence",
+    "year": "19th century",
+    "location": "Amherst, Massachusetts",
+    "notes": "Emily alludes to Pythagorean principles in her exploration of love and mathematics."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Susan Gilbert Dickinson",
+    "type": "Romantic/Social",
+    "year": "19th century",
+    "location": "Amherst, Massachusetts",
+    "notes": "Emily and Susan exchanged letters and shared intense feelings of love and friendship."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Samuel Bowles",
+    "type": "Social/Correspondence",
+    "year": "19th century",
+    "location": "Amherst, Massachusetts",
+    "notes": "Samuel Bowles became one of Dickinson's closest correspondents."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Margaret Fuller",
+    "type": "Inspirational/Admiration",
+    "year": "19th century",
+    "location": "Not specified",
+    "notes": "Dickinson admired Fuller's work and likely read her correspondence."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Harriet Beecher Stowe",
+    "type": "Social",
+    "year": "19th century",
+    "location": "Amherst, Massachusetts",
+    "notes": "Attended salons hosted by Sue where Stowe was present."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Ralph Waldo Emerson",
+    "type": "Inspirational/Intellectual",
+    "year": "1857",
+    "location": "The Evergreens, Amherst",
+    "notes": "Emerson visited Sue's drawing room previously during his stay."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Maria Mitchell",
+    "type": "Social/Professional",
+    "year": "19th century",
+    "location": "Not specified",
+    "notes": "Both women engaged in intellectual pursuits and discussions."
+  },
+  {
+    "character1": "Thomas Wentworth Higginson",
+    "character2": "Emily Dickinson",
+    "type": "Professional",
+    "year": "1862",
+    "location": "Amherst, Massachusetts",
+    "notes": "Higginson encouraged Dickinson\u2019s writing and critiqued her poems"
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Kate Scott Anthon",
+    "type": "Romantic",
+    "year": "1861",
+    "location": "Amherst, Massachusetts",
+    "notes": "An intense friendship that may have involved romantic elements"
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Samuel Bowles",
+    "type": "Correspondence",
+    "year": "1861",
+    "location": "Springfield, Massachusetts",
+    "notes": "Bowles published some of Dickinson's poetry, and they exchanged letters"
+  },
+  {
+    "character1": "Thomas Wentworth Higginson",
+    "character2": "Margaret Fuller",
+    "type": "Professional",
+    "year": "N/A",
+    "location": "United States",
+    "notes": "Higginson became the biographer of Fuller, linking them professionally"
+  },
+  {
+    "character1": "Susan Gilbert Dickinson",
+    "character2": "Emily Dickinson",
+    "type": "Family/Friendship",
+    "year": "N/A",
+    "location": "Amherst, Massachusetts",
+    "notes": "Susan was a close friend and supporter of Emily's poetry"
+  },
+  {
+    "character1": "Elizabeth Barrett Browning",
+    "character2": "Emily Dickinson",
+    "type": "Inspirational",
+    "year": "N/A",
+    "location": "N/A",
+    "notes": "Dickinson admired Browning's work and was inspired by it"
+  },
+  {
+    "character1": "Horace Mann",
+    "character2": "Emily Dickinson",
+    "type": "Influential Professional",
+    "year": "N/A",
+    "location": "N/A",
+    "notes": "Mann's education reforms influenced Dickinson's own education"
+  },
+  {
+    "character1": "Maria Child",
+    "character2": "Emily Dickinson",
+    "type": "Inspirational",
+    "year": "N/A",
+    "location": "N/A",
+    "notes": "Child's advocacy for women's education influenced Dickinson's views"
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Loo",
+    "type": "Family",
+    "year": "",
+    "location": "Amherst, Massachusetts",
+    "notes": "Cousins, with Loo commenting on public perceptions of Dickinson."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Helen Hunt Jackson",
+    "type": "Social",
+    "year": "1876",
+    "location": "Amherst, Massachusetts",
+    "notes": "Jackson attempted to persuade Dickinson to publish her poetry."
+  },
+  {
+    "character1": "Austin Dickinson",
+    "character2": "Mabel Loomis Todd",
+    "type": "Romantic",
+    "year": "1881-1882",
+    "location": "Amherst, Massachusetts",
+    "notes": "Engaged in a long-term affair that affected the Dickinson family dynamic."
+  },
+  {
+    "character1": "Mabel Loomis Todd",
+    "character2": "David Peck Todd",
+    "type": "Social",
+    "year": "",
+    "location": "United States",
+    "notes": "Mabel is married to David Todd, an astronomer."
+  },
+  {
+    "character1": "Thomas Wentworth Higginson",
+    "character2": "Samuel Bowles",
+    "type": "Professional",
+    "year": "",
+    "location": "United States",
+    "notes": "Recognition and mutual respect based on their backgrounds in activism and literature."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Austin Dickinson",
+    "type": "Family",
+    "year": "",
+    "location": "Amherst, Massachusetts",
+    "notes": "Siblings, with Austin's support and complicity in the events surrounding Mabel."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Judge Otis Lord",
+    "type": "romantic",
+    "year": "Late 1870s",
+    "location": "Homestead, Salem",
+    "notes": "Correspondence filled with romantic undertones following Judge Lord's wife's death."
+  },
+  {
+    "character1": "Austin Dickinson",
+    "character2": "Gib",
+    "type": "family",
+    "year": "Late 19th century",
+    "location": "Homestead",
+    "notes": "Austin's beloved son who died of typhoid fever."
+  },
+  {
+    "character1": "Mabel",
+    "character2": "Austin Dickinson",
+    "type": "romantic",
+    "year": "Late 19th century",
+    "location": "Homestead",
+    "notes": "Engaged in an extramarital affair after Gib's death."
+  },
+  {
+    "character1": "Susan Dickinson",
+    "character2": "Gib",
+    "type": "family",
+    "year": "Late 19th century",
+    "location": "Homestead",
+    "notes": "Mother of Gib, whose illness deeply affected her."
+  },
+  {
+    "character1": "Lavinia Dickinson",
+    "character2": "Susan Dickinson",
+    "type": "sibling",
+    "year": "Late 19th century",
+    "location": "Homestead",
+    "notes": "Lavinia's antagonism towards Susan after discovering Emily had given her poems."
+  },
+  {
+    "character1": "Thomas Wentworth Higginson",
+    "character2": "Emily Dickinson",
+    "type": "professional",
+    "year": "19th century",
+    "location": "Boston, Massachusetts",
+    "notes": "Editor who supported and encouraged Dickinson's work."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Helen Hunt Jackson",
+    "type": "professional",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Helen was a public champion for Emily's work."
+  },
+  {
+    "character1": "Mabel",
+    "character2": "Lavinia Dickinson",
+    "type": "social",
+    "year": "Post-Emily's death",
+    "location": "Homestead",
+    "notes": "Mabel gained access to Emily's work through Lavinia, leading to tensions."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Susan Dickinson",
+    "type": "Romantic",
+    "year": "19th century",
+    "location": "Amherst, Massachusetts",
+    "notes": "Emily had a deep and unreciprocated love for Susan."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Austin Dickinson",
+    "type": "Family",
+    "year": "19th century",
+    "location": "Amherst, Massachusetts",
+    "notes": "Austin was Emily's brother."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Lavinia Dickinson",
+    "type": "Family",
+    "year": "19th century",
+    "location": "Amherst, Massachusetts",
+    "notes": "Lavinia was Emily's sister."
+  },
+  {
+    "character1": "Mabel Loomis Todd",
+    "character2": "David Todd",
+    "type": "Professional",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Mabel and David worked closely on projects related to astronomy and Emily Dickinson's poetry."
+  },
+  {
+    "character1": "Carl Sagan",
+    "character2": "Annie Druyan",
+    "type": "Romantic",
+    "year": "20th century",
+    "location": "United States",
+    "notes": "Carl and Annie fell in love during their work on the Golden Record."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Samuel Pierpont Langley",
+    "type": "Professional",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Langley\u2019s scientific contributions were mentioned in relation to Dickinson\u2019s insights."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Benjamin Disraeli",
+    "type": "Professional",
+    "year": "19th century",
+    "location": "United Kingdom",
+    "notes": "Reference to Disraeli's romantic novel associated with Dickinson\u2019s circle."
+  },
+  {
+    "character1": "Emily Dickinson",
+    "character2": "Virginia Woolf",
+    "type": "Literary",
+    "year": "20th century",
+    "location": "United Kingdom",
+    "notes": "Woolf reflected on the life of Dickinson in relation to her own artistic endeavors."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Emily Dickinson",
+    "type": "Inspirational/ Literary",
+    "year": "1920s",
+    "location": "United States",
+    "notes": "Carson reflects Dickinson's sentiments in her own writings about nature."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Mary Scott Skinker",
+    "type": "Mentor/Student",
+    "year": "1925-1926",
+    "location": "Pittsburgh, Pennsylvania",
+    "notes": "Skinker inspired Carson to pursue biology."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Walt Whitman",
+    "type": "Inspirational/ Literary",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Carson is influenced by Whitman's ideas about nature."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Albert Einstein",
+    "type": "Contextual Reference",
+    "year": "1907",
+    "location": "United States",
+    "notes": "Mentioned in context to the year of Carson's birth."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Maria Mitchell",
+    "type": "Inspirational/ Legacy",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Carson follows in the footsteps of female scientists like Mitchell."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Jane Goodall",
+    "type": "Social",
+    "year": "1940s",
+    "location": "United States",
+    "notes": "Both women activists contributed significantly to their respective fields."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Marie Rodell",
+    "type": "Professional",
+    "year": "1948",
+    "location": "New York",
+    "notes": "Rodell was Carson's literary agent and a close friend."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Mary Scott Skinker",
+    "type": "Friendship",
+    "year": "1949",
+    "location": "Chicago",
+    "notes": "Skinker was a mentor to Carson and influenced her path in writing."
+  },
+  {
+    "character1": "Alice Roosevelt Longworth",
+    "character2": "Rachel Carson",
+    "type": "Social",
+    "year": "1951",
+    "location": "Washington, D.C.",
+    "notes": "Longworth expressed admiration for Carson's work."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Mabel Loomis Todd",
+    "type": "Professional",
+    "year": "1940s",
+    "location": "United States",
+    "notes": "Todd's daughter was a colleague of Carson."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Sylvia Earl",
+    "type": "Professional",
+    "year": "1950s",
+    "location": "Indian Ocean",
+    "notes": "Both made significant contributions to marine science."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Dorothy Freeman",
+    "type": "Social/Romantic",
+    "year": "1952",
+    "location": "Southport, Maine",
+    "notes": "Their friendship blossomed quickly, deepening into a romantic relationship."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Henry Beston",
+    "type": "Professional/Mentorship",
+    "year": "1952",
+    "location": "Maine",
+    "notes": "Carson sought validation from Beston as her literary hero."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Frederick Douglass",
+    "type": "Cultural Influence",
+    "year": "19th century",
+    "location": "United States",
+    "notes": "Carson quotes Douglass to emphasize the importance of emotional depth in writing."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Marianne Moore",
+    "type": "Professional",
+    "year": "",
+    "location": "New York",
+    "notes": "Carson shared a table with Moore at the National Book Award ceremony."
+  },
+  {
+    "character1": "Dorothy Freeman",
+    "character2": "Stanley Freeman",
+    "type": "Marriage",
+    "year": "20th century",
+    "location": "United States",
+    "notes": "Stanley supported Dorothy's friendship with Rachel Carson."
+  },
+  {
+    "character1": "E. B. White",
+    "character2": "Rachel Carson",
+    "type": "Professional",
+    "year": "20th century",
+    "location": "United States",
+    "notes": "White encouraged Carson to cover the pesticide spraying issue for The New Yorker."
+  },
+  {
+    "character1": "Lise Meitner",
+    "character2": "Otto Hahn",
+    "type": "Professional",
+    "year": "Early 20th century",
+    "location": "Berlin, Germany",
+    "notes": "Collaborated for thirty years in nuclear physics research."
+  },
+  {
+    "character1": "Lise Meitner",
+    "character2": "Max Planck",
+    "type": "Professional",
+    "year": "Early 20th century",
+    "location": "Berlin, Germany",
+    "notes": "Meitner sought to study under Planck, but faced gender discrimination."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Dorothy",
+    "type": "Social/Emotional",
+    "year": "1950s",
+    "location": "United States",
+    "notes": "Dorothy provided emotional support to Carson."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Marjorie Spock",
+    "type": "Professional",
+    "year": "1950s",
+    "location": "United States",
+    "notes": "Corresponded about the writing process for 'Silent Spring.'"
+  },
+  {
+    "character1": "Lise Meitner",
+    "character2": "James Chadwick",
+    "type": "Professional",
+    "year": "1930s",
+    "location": "Not specified",
+    "notes": "Chadwick respected Meitner's capabilities despite systemic discrimination against women."
+  },
+  {
+    "character1": "Lise Meitner",
+    "character2": "Otto Frisch",
+    "type": "Family/Professional",
+    "year": "Mid 20th century",
+    "location": "Copenhagen, Denmark",
+    "notes": "Meitner's nephew, collaborated on the discovery of nuclear fission."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Maria Carson",
+    "type": "Family",
+    "year": "1958",
+    "location": "Silver Spring, United States",
+    "notes": "Rachel's mother, whose deteriorating health impacted Rachel emotionally during her writing."
+  },
+  {
+    "character1": "Lise Meitner",
+    "character2": "Fritz Strassmann",
+    "type": "Professional",
+    "year": "1930s",
+    "location": "Berlin, Germany",
+    "notes": "Strassmann was a collaborator who faced persecution by Nazis."
+  },
+  {
+    "character1": "Marie Curie",
+    "character2": "Lise Meitner",
+    "type": "Professional",
+    "year": "Early 20th century",
+    "location": "Not specified",
+    "notes": "Curie's work influenced the scientific landscape in which Meitner operated."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Walt Whitman",
+    "type": "Inspirational",
+    "year": "19th century",
+    "location": "Not specified",
+    "notes": "Carson drew inspiration from Whitman's views on nature."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Dorothy Freeman",
+    "type": "social",
+    "year": "20th century",
+    "location": "California, Silver Spring",
+    "notes": "Deeply emotional friendship highlighted in correspondence and experiences."
+  },
+  {
+    "character1": "John F. Kennedy",
+    "character2": "Frances Oldham Kelsey",
+    "type": "professional",
+    "year": "1962",
+    "location": "Washington, D.C.",
+    "notes": "Presented Kelsey with a medal for her work preventing thalidomide's introduction."
+  },
+  {
+    "character1": "Robert H. White-Stevens",
+    "character2": "Rachel Carson",
+    "type": "antagonistic",
+    "year": "1960s",
+    "location": "New York",
+    "notes": "Publicly criticized and debated Carson's claims about pesticides."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "John F. Kennedy",
+    "type": "professional",
+    "year": "1963",
+    "location": "White House",
+    "notes": "Carson's work influenced Kennedy's environmental policy discussions."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Bob Hines",
+    "type": "professional",
+    "year": "20th century",
+    "location": "Silver Spring, Maryland",
+    "notes": "Longtime friend and colleague at Fish and Wildlife Service."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Marie Rodell",
+    "type": "friendship",
+    "year": "20th century",
+    "location": "Silver Spring, Maryland",
+    "notes": "Deep personal and professional bond, providing emotional support."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "John Muir",
+    "type": "influence",
+    "year": "19th century",
+    "location": "California",
+    "notes": "Muir was a major influence on Carson's understanding of nature."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "David Brower",
+    "type": "professional",
+    "year": "20th century",
+    "location": "Muir Woods, California",
+    "notes": "Brower was an admirer and showed Carson around the Muir Woods."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Dorothy",
+    "type": "romantic",
+    "year": "20th century",
+    "location": "Silver Spring, Maryland",
+    "notes": "Close partner and supporter during Carson\u2019s life."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "John F. Kennedy",
+    "type": "political influence",
+    "year": "1960s",
+    "location": "United States",
+    "notes": "Kennedy's assassination profoundly affected Carson."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Lyndon B. Johnson",
+    "type": "political influence",
+    "year": "1960s",
+    "location": "Washington, D.C.",
+    "notes": "Johnson signed significant environmental legislation influenced by Carson\u2019s work."
+  },
+  {
+    "character1": "Leonard Bernstein",
+    "character2": "John F. Kennedy",
+    "type": "social",
+    "year": "20th century",
+    "location": "New York, United States",
+    "notes": "Bernstein conducted a symphony in tribute to JFK."
+  },
+  {
+    "character1": "Pablo Casals",
+    "character2": "John F. Kennedy",
+    "type": "social",
+    "year": "20th century",
+    "location": "Washington, D.C.",
+    "notes": "Casals saw Kennedy as a beacon of democracy."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Robert Carson",
+    "type": "family",
+    "year": "1964",
+    "location": "Silver Spring, Maryland",
+    "notes": "Brother who conflicted with Carson's burial wishes."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Dorothy",
+    "type": "emotional support",
+    "year": "20th century",
+    "location": "Silver Spring, Maryland",
+    "notes": "Dorothy provided support during Rachel\u2019s illness."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Roger",
+    "type": "parental",
+    "year": "20th century",
+    "location": "Silver Spring, Maryland",
+    "notes": "Carson\u2019s son, emotionally affected by her health struggles."
+  },
+  {
+    "character1": "Rachel Carson",
+    "character2": "Duncan Howlett",
+    "type": "professional",
+    "year": "20th century",
+    "location": "United States",
+    "notes": "Howlett admired Carson and was to officiate her memorial."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Nino",
+    "type": "familial",
+    "year": "1850",
+    "location": "Onboard the _Elizabeth_",
+    "notes": "Mother-son relationship; Fuller sings to comfort her son during the storm."
+  },
+  {
+    "character1": "Davis",
+    "character2": "Margaret Fuller",
+    "type": "professional",
+    "year": "1850",
+    "location": "Onboard the _Elizabeth_",
+    "notes": "First mate tries to convince Fuller to save herself while guiding the raft."
+  },
+  {
+    "character1": "Herman Melville",
+    "character2": "Margaret Fuller",
+    "type": "literary",
+    "year": "1850",
+    "location": "Literary context",
+    "notes": "Melville reflects on Fuller's shipwreck in his novel _Moby-Dick_."
+  },
+  {
+    "character1": "Waldo Emerson",
+    "character2": "Margaret Fuller",
+    "type": "romantic/social",
+    "year": "19th century",
+    "location": "Concord, Massachusetts",
+    "notes": "An intellectual companionship marked by deep emotional turbulence."
+  },
+  {
+    "character1": "Henry Thoreau",
+    "character2": "Waldo Emerson",
+    "type": "professional",
+    "year": "1850",
+    "location": "Concord, Massachusetts",
+    "notes": "Sent by Emerson to retrieve potentially valuable items after Fuller's tragedy."
+  },
+  {
+    "character1": "Margaret Fuller",
+    "character2": "Elizabeth Barrett Browning",
+    "type": "literary",
+    "year": "post-1850",
+    "location": "Literary context",
+    "notes": "Browning expresses admiration for Fuller after her death."
+  }
+]

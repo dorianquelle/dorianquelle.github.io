@@ -2,12 +2,12 @@
 classes: 
     - wide
     - dark-theme
-title: "Titled Tuesday Cheating - Part 2 - Fantastic Cheaters and Where to Find Them"
+title: "Titled Tuesday Cheating - Part 2"
 date: 2023-10-13
 categories: [blog]
 toc: true
 toc_label: "Table of Contents"
-excerpt: "Fantastic Cheaters and Where to Find Them. Using the Elo system to detect cheating in Titled Tuesday tournaments."
+excerpt: "Fantastic Cheaters and Where to Find Them"
 header:
   overlay_image: /assets/images/smartcheaters.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
@@ -15,21 +15,21 @@ header:
 ---
 
 # Introduction
-A month ago I published a blog article dicussing why I do not think that there is any statistical evidence of widespread cheating in Titled Tuesday tournaments. I did not say that cheating is non-existent, I simply showed that looking at the data, the claim that a significant percentage of players are consistently using engine evaluations is unfounded. Since then, a former World Champion published an hour long video, and accused Hikaru Nakamura of cheating. Chess.com increased their efforts to catch cheaters, and the chess community has been in an uproar. 
+A month ago I published a blog article dicussing why I do not think that there is any statistical evidence of widespread cheating in Titled Tuesday tournaments. I did not say there was none, I simply showed that looking at the data, the claim that a significant percentage of players are consistently using engine evaluations was unfounded. Since then, a former World Champion published an hour long video, and accused Hikaru Nakamura of cheating. Chess.com increased their efforts to catch cheaters, and the chess community has been in an uproar. 
 
-The methodology I used in the last post closely aligned with the one reportedly used by the team of mathematicians of a former world champion, who sparked this debate. The internet, and I, were however not satisfied by this methodology. The most salient counter argument arising from the discussion was that this methodology would not catch "smart" cheaters who use the engine evaluations only in critical positions or once or twice per game. 
+The methodology I used in the last post closely aligned with the one reportedly used by the team of mathematicians of a former world champion, who sparked this debate. The internet, and I, were however not satisfied by this methodology. The most salient counter arguments arising from the discussion was, that this methodology would not catch "smart" cheaters who use the engine evaluations only in critical positions, or only use it once or twice per game. 
 
-Something that Fabiano said in his podcast peaked my interest. He claimed that first, cheating has only taken off after the "chess-hype" in November of 2020 where significant amounts of money were suddently to be gained from online chess. Second, he stated that while cheating has increased online, it has not increased offline. The statistical minds among you will immediately see that this is a perfect opportunity for a difference-in-difference analysis. We have four conditions, first and second time period, online and offline. We can compare the change in cheating between online and offline, and see if there is a significant difference.
+Something that Fabiano said in his podcast peaked my interest. He claimed that first, cheating has only taken off after the "chess-hype" in November of 2020 where significant amounts of money were suddently to be gained from online chess. Second, he stated that while cheating has increased Online, it has not (to the same extent) increased offline. The statistical minds among you will immediately see that this is a perfect opportunity for a difference-in-difference analysis. We have four conditions, first and second time period, online and offline. We can compare the change in cheating between online and offline, and see if there is a significant difference.
 
-This much more robust methodology does not relieve us from defining some measure of cheating. ELO is an amazing system, predicting the winning probability of a player based on their and their opponent's past perfomance. If there are cheaters online, this would be reflected in the ELO expectations of a games result becoming less predictive of the true outcome of a game. A 2400 playing like a 2600 against a 2700 rated player would increase their winning changes from 15.09% to 35.99%. In contrast to my previous blog article, this methodology does not examine any individual player, it mereley investigates whether the statistical properties of the ELO system have changed and thereby proves whether cheating has increased or not. The amazing thing about this methodology is that *it does not matter how the cheaters cheat, as long as they do so in a way that changes their winning chances*. 
+This - much more robust methodology - does not relieve us from defining some measure of cheating. ELO is an amazing system, predicting the winning probability of a player based on their (and their opponents) past perfomance. If there are cheaters online, this would be reflected in the ELO expectations of a games result becoming less predictive of the true outcome of a game. A 2400 playing like a 2600 against a 2700 rated player would increase their winning changes from 15.09% to 35.99%. In contrast to my previous blog article, this methodology does not examine any player, it mereley investigates whether the statistical properties of the ELO system have changed and thereby proves whether cheating has increased or not. The amazing thing about this methodology is that *it does not matter how the cheaters cheat, as long as they do so in a way that changes their winning chances*. 
 
-There is, however, one problem. Let's assume a 2400 has found a way to calibrate the amount of cheating to reliably play at a level of 2600. We would no longer find any statistical incrongruencies in the ELO system. Therefore, we need to match titled players to their official (offline) FIDE rating. We can then compare how the winning chances of these players have changed between the two time periods with a rating that is unpolluted by cheating on Online servers. 
+There is however one problem. Let's assume a 2400 has found a way to calibrate the amount of cheating to reliably play at a level of 2600. We would no longer find any statistical incrongruencies in the ELO system. Therefore, we need to match titled players to their official (offline) FIDE rating. We can then compare how the winning chances of these players have changed between the two time periods with a rating that is unpolluted by cheating on Online servers. 
 
 Before diving into the data and results, two aspects need highlighting. First, online and offline chess naturally differ in expected ways - more flagging, premoves, streaming distractions, etc. Second, the pre- and post-hype eras likely differ as new players joined, [ratings shifted](https://www.chess.com/news/view/fide-mathematician-proposes-changes-to-improve-rating-accuracy), and motivation varied. We intentionally disregard these predictable differences. We are solely interested in the difference between the changes in Elo accuracy over time, online versus offline. This is known as a difference-in-differences analysis.
 
 To understand why, consider a famous minimum wage study. Economists David Card and Alan Krueger compared unemployment rates before and after New Jersey raised its minimum wage, versus Pennsylvania which did not. If unemployment rose in both states, it would reflect broader economic trends, not the wage change. And just comparing unemployment rates would not isolate the wage impact from other changing factors. By comparing the difference in the change in unemployment between states, they isolated the wage impact from broader economic factors.
 
-Similarly, we compare how Elo accuracy has changed over time, online versus offline. This methodology isolates the potential impact of increased cheating online from other realities of online chess. We purely examine whether Elo became a weaker predictor online versus offline after the 2020 boom.
+Similarly, we compare how Elo accuracy changed over time, online versus offline. This isolates the potential impact of increased cheating online from other realities of online chess. We purely examine whether Elo became a weaker predictor online versus offline after the 2020 boom.
 
 # Data
 
@@ -47,20 +47,20 @@ To match players with their FIDE rating, I downloaded a complete list of all tit
 Subsequently, I downloaded all the information about these players from their Chess.com profiles. Most players list their real name and their Federation on their profile. I used this information to match the players with their FIDE rating. Fide publishes the entire data-set of all rated players on their website. To match the two data-sets I aligned their names and used fuzzy searching to find the closest match in the Fide data-set. In total 6.872 had a *very* close match in the FIDE list, with their federation and title matching up.
 
 <div align="center">
-<img src="../assets/images/MatchedPlayersByCountry.png" style="width: 100%;">
-<!-- <img src="../blog/assets/images/MatchedPlayersByCountry.png" style="width: 100%;"> -->
+<img src="../assets/images/MatchedPlayersByCountry.png" style="width: 100%;"> 
+<!-- <img src="../blog/assets/images/MatchedPlayersByCountry.png" style="width: 100%;">-->
 </div>
 
-There are dozens of articles online discussing whether and how Lichess and Chess.com ratings correspond to FIDE ratings. Please do not overinterpret the following gif. It is only supposed to show how strong the corelation between the two variables are and will not tell you what your FIDE rating would be.
+There are dozens of articles online discussing whether and how Lichess and Chess.com ratings correspond to FIDE ratings. Please don't overinterpret the following gif. It's only supposed to show how strong the corelation between the two variables are and will not tell you what your FIDE rating would be.
 
 <div align="center">
-<img src="../assets/images/chess_ratings_animation_paused.gif" style="width: 100%;"> 
+<img src="../assets/images/chess_ratings_animation_paused.png" style="width: 100%;"> 
 <!-- <img src="../blog/assets/images/chess_ratings_animation_paused.gif" style="width: 100%;">-->
 </div>
 
 
 ## Offline Chess
-To establish an offline baseline, I used the [Opening Master Database](https://www.openingmaster.com/chess-databases/om-otb) containing roughly 10 million historical and contemporary games played. I filtered this database to only include matches from Blitz or Rapid tournaments. This resulted in a list of 232.881 offline games. It shows three regresssions of chess.com ratings with the Fide Blitz, Rapid and Classical ratings. In general, Chess.com ratings are always higher than their Fide counterparts and the rating difference decreases with a higher rating. 
+To establish an offline baseline I used the [Opening Master Database](https://www.openingmaster.com/chess-databases/om-otb) containing roughly 10 million historical and contemporary games played. I filtered this database to only include matches from Blitz or Rapid tournaments. This resulted in a list of 232.881 offline games. It shows three regresssions of chess.com ratings with the Fide Blitz, Rapid and Classical ratings. In general, Chess.com ratings are always higher than their Fide counterparts and the rating difference decreases with a higher rating. 
 
 <div align="center">
 <img src="../assets/images/MatchedPlayersByRegion.png" style="width: 100%;"> 
@@ -68,6 +68,10 @@ To establish an offline baseline, I used the [Opening Master Database](https://w
 </div>
 
 This map showcases all games played in the offline data-base. The scatter points in Europe and the US are roughly proportional to the number of games played in this location. If your city is missing - I'm sorry, it probably has multiple ways of spelling it and is therefore not being matched. 
+
+## Glicko vs Elo
+
+Nerd Alert: Chess.com actually uses the Glicko instead of the ELO rating system. Glicko takes into account how volatile your rating is, and how many games you have played. The formulae for the expected score of a game and elo are not the same. However, for active chess players, the expected score estimation in Glicko doesn't differ significantly from Elo. This is because the rating deviation (RD), a measure of uncertainty in a player’s rating, tends to be low for players who compete frequently. With a low RD, the Glicko expected score formula, which adjusts for player reliability, is roughly equivalent to the ELO formula. Therefore, for the purpose of estimating expected scores, not rating changes, the difference between using Glicko and Elo is minimal for active players. Because I do not have access to the RD of the players, I will use the Elo formulae to estimate the expected score of a game.
 
 # Results
 ## Biggest Upsets
@@ -116,19 +120,17 @@ Now that we have the complete data - we can look at the overall performance of e
 | Polish_fighter3000 | 3083 (+35) | 77.20% |
 | FairChess_on_YouTube | 3079 (+67) | 76.37% |
 | Duhless | 3077 (+50) | 76.13% |
+| LyonBeast | 3073 (+86) | 77.75% |
+| Grischuk | 3062 (+24) | 75.10% |
+| howitzer14 | 3053 (+102) | 83.55% |
 
-<!--| LyonBeast | 3073 (+86) | 77.75% |-->
-<!--| Grischuk | 3062 (+24) | 75.10% |-->
-<!--| howitzer14 | 3053 (+102) | 83.55% |-->
-
-This table shows the top players (ranked according to their performace) for all Titled Tuesday games. In parenthesis, I show the difference of the performance to the players average ELO. Magnus dominates the field. He's the only player exceeding an overall peformance of 3200 elo. Hikaru, Artemiev, Nepomniachtchi, and So exceed 3100. Firouzja and Caruana just miss this eilte club with a performance of 3092 and 3091 respectively. 
-<!-- The 13th highest performing player is David Howell, reaching a performnce of 3053. However he is the player with the highest average score per game out of all players, outperforming Magns and Hikaru even though he has 200 points lower performance. -->
+This table shows the top players (ranked according to their performace) for all Titled Tuesday games. In parenthesis, I show the difference of the performance to the players average ELO. Magnus dominates the field. He's the only player exceeding an overall peformance of 3200 elo. Hikaru, Artemiev, Nepomniachtchi, and So exceed 3100. Firouzja and Caruana just miss this eilte club with a performance of 3092 and 3091 respectively. The 13th highest performing player is David Howell, reaching a performnce of 3053. However he is the player with the highest average score per game out of all players, outperforming Magns and Hikaru even though he has 200 points lower performance. 
 
 ## Elo Rating - Calibration
 Ideally, ELO predictions should line up extremely closely with the empiricial results that we see. If we predict that a player has an expected score of 0.2 - averaged over a large number of games - the observed score should be exactly 0.2. But in reality, ELO suffers from significant biases. See for example, the  chess statisticians [Jeff Sonas'](https://en.wikipedia.org/wiki/Jeff_Sonas) [investigation](https://www.fide.com/docs/presentations/Sonas%20Proposal%20-%20Repairing%20the%20FIDE%20Standard%20Elo%20Rating%20System.pdf) into the ELO system. Players with a low expected score consistently outperform their expected score, while players with a high expected score consistently underperform their expected score.
 
 <div align="center">
-<img src="../assets/images/ExpectedResultComparison.png" style="width: 100%;">--->
+<img src="../assets/images/ExpectedResultComparison.png" style="width: 100%;">
 <!--- <img src="../blog/assets/images/ExpectedResultComparison.png" style="width: 100%;"> --->
 </div>
 Note: I calculate the expected score always based on the winning probability of white - as the fomulae does not take into account the fact that white is more likely to win, the expected score is slightly overestimated.
@@ -139,8 +141,8 @@ We see the same error for Chess.com. Even with much higher activity, a more soph
 As cheaters will have a rating that is higher than their true rating, we need an external data-source for the ratings. As discussed in the introduction, we downloaded all available FIDE ratings, and matched them to the Chess.com ratings. 
 
 <div align="center">
-<img src="../assets/images/Online_ExpectedResultComparison.png" style="width: 100%;">
-<!--- <img src="../blog/assets/images/Online_ExpectedResultComparison.png" style="width: 100%;"> --->
+<img src="../assets/images/Online_ExpectedResultComparison.png" style="width: 100%;"> 
+<!--- <img src="../blog/assets/images/Online_ExpectedResultComparison.png" style="width: 100%;">--->
 </div>
 
 The figure displays the calibration of the Chess.com ratings compared to different FIDE ratings. Unsuprisingly, best data-source are the Chess.com ratings with a mean absolute error of 0.35. In second place are the FIDE Blitz ratings with a mean absolute error of 0.38. The FIDE Standard and Rapid ratings are slighly worse with a mean absolute error of 0.39. The fact that the FIDE ratings are roughly comparable to the Chess.com ratings in terms of calibration is a great sign, as it means that we can use the Fide ratings to estimate the expected score of a game.
@@ -149,11 +151,11 @@ The figure displays the calibration of the Chess.com ratings compared to differe
 Before running any statistical tests, we'll first have a look at the error over time.
 
 <div align="center">
-<img src="../assets/images/ErrorOverTime.png" style="width: 100%;">
-<!--- <img src="../blog/assets/images/ErrorOverTime.png" style="width: 100%;"> --->
+<img src="../assets/images/ErrorOverTime.png" style="width: 100%;"> 
+<!--- <img src="../blog/assets/images/ErrorOverTime.png" style="width: 100%;">--->
 </div>
 
-The figure shows the error of four different conditions. First, the blue line represents the prediction error using the Chess.com ratings. Second, the green, red, and yellow lines represent the error over time using the official fide ratings for the online games. Lastly, the black line shows the error over time for the offline games. We see that the error of the Chess.com ratings is consistently lower than the error for online games with FIDE ratings. As Chess.com ratings are much more accurate due to a higher activity online, this is not surprising. However, we also see that the error for the offline games is lower than the error for the online games. Visually we do not see any difference between the pre-hype and the post hype period. 
+The figure shows the error of four different conditions. First, the blue line represents the prediction error using the Chess.com ratings. Second, the green, red, and yellow lines represent the error over time using the offline (official fide) ratings for the online games. Lastly, the black line shows the error over time for the offline games. We see that the error of the Chess.com ratings is consistently lower than the error for online games with FIDE ratings. As Chess.com ratings are much more accurate due to a higher activity online, this is not surprising. However, we also see that the error for the offline games is lower than the error for the online games. Visually we do not see any difference between the pre-hype and the post hype period. 
 
 ## Anaylsis - Difference in Difference
 To test whether there is a significant difference between the change in error between the online and offline games, we run a difference-in-difference regression. The dependent variable is the error of the prediction. The independent variables are the time period (pre-hype vs post-hype), the condition (online vs offline), and the interaction between the two. The interaction term is the difference-in-difference. If the difference-in-difference is significant, we can conclude that there is a significant difference between the change in error between the online and offline games.
@@ -184,20 +186,3 @@ In my previous blog, I laid out why I am convinced that the allegations of perva
 
 I am convinced that there is no evidence that cheating increased after the chess boom in 2020, compared to the offline baseline. I am also convinced that there is no evidence of pervasive and consistent computer assisted cheating in titled tuesday tournaments. 
 
-
-# Appendix
-
-### Simulation
-I simulated a tournament of 500 players playing 22 rounds (early and late titled tueday). The players have normally distributed elo-ratings. However, a variable amount of people are "cheating". They still have an official Elo-Rating but play according to another Elo-Rating, and thereby change the probable outcome. 
-
-The right pane shows the average prediction error for a given Number of Cheaters and Cheater Elo combination. The left-most pane shows the percentage of times that a simple t-test detected a significant change in the prediction error for each tournament at a 5% (left) and a 1% (center) confidence level. 
-
-<div align="center">
-<img src="../assets/images/cheating_simulation.png" style="width: 100%;"> 
-<!--- <img src="../blog/assets/images/cheating_simulation.png" style="width: 100%;">--->
-</div>
-
-We are already able to detect cheating with relative confidence when only 10/500 people are cheating. If 10% of people are cheating, we can detect it with almost 100% confidence, even if the cheaters are "only" playing at a level of 2600 Elo.
-
-### Glicko vs Elo
-Nerd Alert: Chess.com actually uses the Glicko instead of the ELO rating system. Glicko takes into account how volatile your rating is, and how many games you have played. The formulae for the expected score of a game and elo are not the same. However, for active chess players, the expected score estimation in Glicko doesn't differ significantly from Elo. This is because the rating deviation (RD), a measure of uncertainty in a player’s rating, tends to be low for players who compete frequently. With a low RD, the Glicko expected score formula, which adjusts for player reliability, is roughly equivalent to the ELO formula. Therefore, for the purpose of estimating expected scores, not rating changes, the difference between using Glicko and Elo is minimal for active players. Because I do not have access to the RD of the players, I will use the Elo formulae to estimate the expected score of a game.

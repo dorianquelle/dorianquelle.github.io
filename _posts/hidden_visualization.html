@@ -1,0 +1,492 @@
+---
+permalink: /secret-visualization/
+title: "Hidden Visualization"
+layout: none
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Visualizations</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+    <style>
+        body { margin: 0; background-color: black; color: white; font-family: Arial, sans-serif; }
+        .node { fill: white; }
+        .link {
+            stroke: white;
+            stroke-opacity: 0.6;
+            fill: none;
+            stroke-width: 5px; /* Increased from 1px to 5px for easier hovering */
+        }
+        .link:hover {
+            stroke-opacity: 1;
+            cursor: pointer;
+        }
+        .timeline, .map-path { stroke: white; stroke-width: 1; fill: none; }
+        #controls {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        button {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            padding: 8px 16px;
+            margin-right: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 20px;
+        }
+        button:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        button.active {
+            background-color: white;
+            color: black;
+        }
+        #error-message { color: red; position: absolute; top: 50px; left: 10px; z-index: 10; }
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            padding: 8px;
+            font: 12px sans-serif;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            border: 0px;
+            border-radius: 4px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .map-path {
+            stroke: #444;  /* Changed from white to a darker gray */
+            stroke-width: 0.5;  /* Made thinner */
+            fill: none;
+        }
+        .node, .link {
+            transition: none; /* Removed transitions for better performance */
+        }
+        .link-hover-area {
+            pointer-events: all;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="controls">
+        <button onclick="transitionTo('timeline')" id="timeline-btn">Timeline</button>
+        <button onclick="transitionTo('map')" id="map-btn">Map</button>
+        <button onclick="transitionTo('force')" id="force-btn" class="active">Force</button>
+    </div>
+    <div id="error-message"></div>
+    <svg id="visualization"></svg>
+    
+    <div class="tooltip" id="tooltip"></div>
+    
+    <script>
+        // Global variables
+        let width, height, svg, nodes, links, worldMap, mapLayer, nodesLayer, linksLayer, g;
+        let currentLayout = 'force';
+        let zoom;
+        let currentZoom = 1;
+        let nodePositions = {}; // Store positions for each layout
+        let nodeSelection, linkSelection;
+        let animationRequest, simulation;
+    
+        // Update the world map URL to a more detailed version
+        const WORLD_MAP_URL = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson";
+    
+        // Set up SVG and groups
+        function setupSVG() {
+            width = window.innerWidth;
+            height = window.innerHeight;
+            svg = d3.select("#visualization")
+                .attr("width", width)
+                .attr("height", height);
+            
+            g = svg.append("g");
+            mapLayer = g.append("g").attr("class", "map-layer");
+            linksLayer = g.append("g").attr("class", "links-layer");
+            nodesLayer = g.append("g").attr("class", "nodes-layer");
+    
+            // Set up zoom behavior
+            zoom = d3.zoom()
+                .scaleExtent([0.1, 10])
+                .on("zoom", handleZoom);
+    
+            svg.call(zoom);
+        }
+    
+        // Handle zoom event
+        function handleZoom(event) {
+            g.attr("transform", event.transform);
+            currentZoom = event.transform.k;
+            updateNodeSize(currentZoom);
+            updateLinkWidth(currentZoom);
+        }
+    
+        // Update node size based on zoom level
+        function updateNodeSize(k) {
+            nodeSelection
+                .attr("r", d => 5 / k); // Math.sqrt(k));
+        }
+    
+        // Update link width based on zoom level
+        function updateLinkWidth(k) {
+            linkSelection
+                .style("stroke-width", 1 / Math.sqrt(k) + "px");
+        }
+    
+        // Display error message
+        function displayError(message) {
+            document.getElementById('error-message').textContent = message;
+        }
+    
+        // Load data and initialize
+        function init() {
+            setupSVG(); // Make sure this is called before loading data
+            Promise.all([
+                d3.json("/assets/data/character_data_with_coords.json"),
+                d3.json("/assets/data/relationships.json"),
+                d3.json(WORLD_MAP_URL)
+            ]).then(([characterData, relationships, worldMapData]) => {
+                // Remove Antarctica
+                worldMap = {
+                    type: worldMapData.type,
+                    features: worldMapData.features.filter(f => f.properties.NAME !== "Antarctica")
+                };
+                processData(characterData, relationships);
+                initializeSelections();
+                drawWorldMap();
+                transitionTo(currentLayout);
+            }).catch(error => {
+                displayError("Error loading data: " + error.message);
+                console.error(error);
+            });
+        }
+    
+        // Validate and process data
+        function processData(characterData, relationships) {
+            nodes = Object.entries(characterData)
+                .filter(([_, data]) => data.coordinates && data.coordinates.length > 0)
+                .map(([name, data]) => ({
+                    id: name,
+                    year: data.specific_years ? data.specific_years[0] : null,
+                    location: {
+                        x: data.coordinates[0][1],
+                        y: data.coordinates[0][0],
+                    },
+                    allLocations: data.probable_locations ? data.probable_locations[0] : 'Unknown',
+                    timePeriod: data.probable_time_periods ? data.probable_time_periods[0] : 'Unknown',
+                    x: 0, // Initialize positions
+                    y: 0
+                }));
+    
+            const nodesWithCoordinates = new Set(nodes.map(node => node.id));
+    
+            links = relationships.filter(r => {
+                if (!nodesWithCoordinates.has(r.character1) || !nodesWithCoordinates.has(r.character2)) {
+                    console.warn(`Skipping relationship: ${r.character1} - ${r.character2}. One or both characters don't have coordinates.`);
+                    return false;
+                }
+                return true;
+            }).map(r => ({ 
+                source: nodes.find(n => n.id === r.character1), 
+                target: nodes.find(n => n.id === r.character2),
+                notes: r.notes // Add this line to include the notes
+            }));
+    
+            const connectedNodes = new Set(links.flatMap(l => [l.source.id, l.target.id]));
+            nodes = nodes.filter(n => connectedNodes.has(n.id));
+    
+            console.log(`Processed ${nodes.length} nodes and ${links.length} links`);
+    
+            // Store initial positions for map layout
+            const projection = d3.geoMercator().fitSize([width, height], worldMap);
+            nodes.forEach(node => {
+                const [x, y] = projection([node.location.x, node.location.y]);
+                node.mapX = x;
+                node.mapY = y;
+            });
+        }
+    
+        // Initialize selections
+        function initializeSelections() {
+            nodeSelection = nodesLayer.selectAll(".node")
+                .data(nodes)
+                .enter()
+                .append("circle")
+                .attr("class", "node")
+                .attr("r", 5)
+                .attr("cx", d => d.x)
+                .attr("cy", d => d.y)
+                .on("mouseover", handleNodeMouseOver)
+                .on("mouseout", handleMouseOut);
+    
+            linkSelection = linksLayer.selectAll(".link")
+                .data(links)
+                .enter().append("path")
+                .attr("class", "link")
+                .attr("d", initialLinkPath)
+                .on("mouseover", handleLinkMouseOver)
+                .on("mouseout", handleMouseOut);
+        }
+    
+        // Mouseover handler for nodes
+        function handleNodeMouseOver(event, d) {
+            const tooltip = d3.select("#tooltip");
+            tooltip.transition().duration(200).style("opacity", 1);
+            tooltip.html(`<strong>${d.id}</strong><br/>Location: ${d.allLocations}<br/>Time Period: ${d.timePeriod}`)
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY - 28) + "px");
+        }
+    
+        // Mouseover handler for links
+        function handleLinkMouseOver(event, d) {
+            const tooltip = d3.select("#tooltip");
+            tooltip.transition().duration(200).style("opacity", 1);
+            tooltip.html(`<strong>${d.source.id}</strong> => <strong>${d.target.id}</strong><br><br>${d.notes || 'No notes available'}`)
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY - 28) + "px");
+        }
+    
+        // Mouseout handler
+        function handleMouseOut() {
+            d3.select("#tooltip").transition().duration(500).style("opacity", 0);
+        }
+    
+        // Initial link path
+        function initialLinkPath(d) {
+            const dx = d.target.x - d.source.x,
+                  dy = d.target.y - d.source.y,
+                  dr = Math.sqrt(dx * dx + dy * dy);
+            return `M${d.source.x},${d.source.y}A${dr},${dr} 0 0,1 ${d.target.x},${d.target.y}`;
+        }
+    
+        // Update node positions based on current layout
+        function updateNodePositions() {
+            nodeSelection
+                .attr("cx", d => d.x)
+                .attr("cy", d => d.y);
+        }
+    
+        // Update edge paths based on current layout
+        function updateEdges() {
+            linkSelection.attr("d", d => {
+                const sourceX = d.source.x;
+                const sourceY = d.source.y;
+                const targetX = d.target.x;
+                const targetY = d.target.y;
+                
+                if (isNaN(sourceX) || isNaN(sourceY) || isNaN(targetX) || isNaN(targetY)) {
+                    console.warn("Invalid coordinates for edge:", d);
+                    return null;
+                }
+                
+                const dx = targetX - sourceX,
+                      dy = targetY - sourceY,
+                      dr = Math.sqrt(dx * dx + dy * dy);
+                return `M${sourceX},${sourceY}A${dr},${dr} 0 0,1 ${targetX},${targetY}`;
+            });
+        }
+    
+        // Initialize force layout
+        function initializeForceLayout() {
+            stopSway(); // Ensure any existing sway is stopped
+            if (simulation) simulation.stop(); // Stop existing simulation
+    
+            simulation = d3.forceSimulation(nodes)
+                .force("link", d3.forceLink(links).id(d => d.id).distance(50))
+                .force("charge", d3.forceManyBody().strength(-30))
+                .force("center", d3.forceCenter(width / 2, height / 2))
+                .force("collision", d3.forceCollide().radius(6)) // Prevent node overlap
+                .velocityDecay(0.3) // Add this line to slow down node movement
+                .on("tick", () => {
+                    updateNodePositions();
+                    updateEdges();
+                });
+    
+            simulation.alpha(1).restart();
+        }
+    
+        // Sway Animation Function
+        function startSway() {
+            const duration = 10000; // Duration of each sway cycle in milliseconds
+            let startTime;
+    
+            // Initialize random offsets for each node
+            nodes.forEach(node => {
+                node.offsetX = Math.random() * Math.PI * 2;
+                node.offsetY = Math.random() * Math.PI * 2;
+                node.originalX = node.x;
+                node.originalY = node.y;
+            });
+    
+            function sway(timestamp) {
+                if (!startTime) startTime = timestamp;
+                const elapsed = timestamp - startTime;
+                const progress = (elapsed % duration) / duration;
+    
+                nodes.forEach(node => {
+                    // Use sine waves with individual offsets for smooth, cyclic motion
+                    const angleX = Math.sin(progress * Math.PI * 2 + node.offsetX) * 2; // Reduced from 5 to 2
+                    const angleY = Math.cos(progress * Math.PI * 2 + node.offsetY) * 2; // Reduced from 5 to 2
+    
+                    node.x = node.originalX + angleX;
+                    node.y = node.originalY + angleY;
+                });
+    
+                updateNodePositions();
+                updateEdges();
+    
+                animationRequest = requestAnimationFrame(sway);
+            }
+    
+            animationRequest = requestAnimationFrame(sway);
+        }
+    
+        // Stop Sway Animation
+        function stopSway() {
+            if (animationRequest) {
+                cancelAnimationFrame(animationRequest);
+                animationRequest = null;
+            }
+            if (simulation) {
+                simulation.stop();
+            }
+        }
+    
+        // Transition to a new layout
+        function transitionTo(newLayout) {
+            if (newLayout === currentLayout) return;
+
+            currentLayout = newLayout;
+
+            // Update active button
+            document.querySelectorAll('#controls button').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(`${newLayout}-btn`).classList.add('active');
+
+            if (newLayout === 'force') {
+                initializeForceLayout();
+                mapLayer.style("display", "none"); // Hide map layer
+                nodesLayer.style("display", "block");
+                linksLayer.style("display", "block");
+                zoomToFit(); // Add this line to zoom to fit all nodes
+            } else if (newLayout === 'map') {
+                stopSway();
+                if (simulation) simulation.stop();
+                mapLayer.style("display", "block"); // Show map layer
+                nodesLayer.style("display", "block");
+                linksLayer.style("display", "block");
+                updateMapLayout();
+                startSway(); // Start sway after updating layout
+                zoomToFit(); // Add this line to zoom to fit all nodes
+            } else if (newLayout === 'timeline') {
+                stopSway();
+                if (simulation) simulation.stop();
+                mapLayer.style("display", "none"); // Hide map layer
+                nodesLayer.style("display", "block");
+                linksLayer.style("display", "block");
+                updateTimelineLayout();
+                startSway(); // Start sway after updating layout
+                zoomToFit(); // Add this line to zoom to fit all nodes
+            }
+        }
+    
+        // Add this new function to zoom and fit all nodes
+        function zoomToFit() {
+            const bounds = nodesLayer.node().getBBox();
+            const dx = bounds.width;
+            const dy = bounds.height;
+            const x = bounds.x + (bounds.width / 2);
+            const y = bounds.y + (bounds.height / 2);
+
+            const scale = 0.8 / Math.max(dx / width, dy / height);
+            const translate = [width / 2 - scale * x, height / 2 - scale * y];
+
+            svg.transition().duration(750).call(
+                zoom.transform,
+                d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale)
+            );
+        }
+    
+        // Update Map Layout
+        function updateMapLayout() {
+            // Position nodes based on map coordinates
+            const projection = d3.geoMercator().fitSize([width, height], worldMap);
+            nodes.forEach(node => {
+                const [x, y] = projection([node.location.x, node.location.y]);
+                node.x = x;
+                node.y = y;
+            });
+    
+            updateNodePositions();
+            updateEdges();
+        }
+    
+        // Update Timeline Layout
+        function updateTimelineLayout() {
+            const years = nodes.map(d => d.year).filter(d => d !== null);
+            const minYear = d3.min(years);
+            const maxYear = d3.max(years);
+    
+            const xScale = d3.scaleLinear()
+                .domain([minYear, maxYear])
+                .range([100, width - 100]);
+    
+            nodes.forEach(node => {
+                if (node.year !== null) {
+                    node.x = xScale(node.year);
+                    node.y = height / 2;
+                } else {
+                    // Position nodes without a year in the center
+                    node.x = width / 2;
+                    node.y = height / 2;
+                }
+            });
+    
+            updateNodePositions();
+            updateEdges();
+        }
+    
+        // Calculate timeline positions (Optional: integrated in updateTimelineLayout)
+        // function timelinePositions() { ... }
+    
+        // Draw world map
+        function drawWorldMap() {
+            if (!mapLayer) {
+                console.error("mapLayer is not initialized");
+                return;
+            }
+    
+            const projection = d3.geoMercator()
+                .fitSize([width, height], worldMap);
+            const path = d3.geoPath().projection(projection);
+    
+            mapLayer.selectAll("path")
+                .data(worldMap.features)
+                .enter().append("path")
+                .attr("d", path)
+                .attr("class", "map-path")
+                .style("opacity", 1)
+                .style("stroke-width", 0.5)
+                .style("stroke", "#444")
+                .style("fill", "none");
+    
+            mapLayer.style("display", "none"); // Initially hide map layer
+        }
+    
+        // Call init function when the window loads
+        window.onload = init;
+    </script>
+</body>
+</html>

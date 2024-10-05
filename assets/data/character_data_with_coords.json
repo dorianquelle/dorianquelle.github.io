@@ -1,0 +1,5383 @@
+{
+  "Johannes Kepler": {
+    "aliases": [
+      "The mathematician",
+      "The first astrophysicist",
+      "Astrophysicist"
+    ],
+    "probable_locations": [
+      "Germany",
+      "Prague",
+      "Graz",
+      "Tübingen",
+      "Bohemia",
+      "Germany",
+      "Prague",
+      "Graz",
+      "Tübingen",
+      "Bohemia",
+      "Germany",
+      "Prague"
+    ],
+    "probable_time_periods": [
+      "Early 17th century (1571–1630)",
+      "Early 17th century (1571-1630)",
+      "Early 17th century"
+    ],
+    "chapters": [
+      1,
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        52.510885,
+        13.3989367
+      ],
+      [
+        50.0874654,
+        14.4212535
+      ],
+      [
+        47.0708678,
+        15.4382786
+      ]
+    ],
+    "specific_years": [
+      1600,
+      1600,
+      1615
+    ]
+  },
+  "Katharina Kepler": {
+    "aliases": [
+      "Kepler's mother",
+      "The old woman accused of witchcraft"
+    ],
+    "probable_locations": [
+      "Germany",
+      "Kepler's hometown",
+      "Germany"
+    ],
+    "probable_time_periods": [
+      "Early 17th century (1541–1622)",
+      "Early 17th century"
+    ],
+    "chapters": [
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        52.510885,
+        13.3989367
+      ],
+      [
+        48.7501041,
+        8.8707147
+      ]
+    ],
+    "specific_years": [
+      1581,
+      1615
+    ]
+  },
+  "Christoph Besold": {
+    "aliases": [
+      "Classmate of Kepler",
+      "Attorney"
+    ],
+    "probable_locations": [
+      "University of Tübingen",
+      "Germany"
+    ],
+    "probable_time_periods": [
+      "Early 17th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.53405945,
+        9.071244429234808
+      ]
+    ],
+    "specific_years": [
+      1615
+    ]
+  },
+  "Tycho Brahe": {
+    "aliases": [
+      "The famous Dane",
+      "Figurous astronomer"
+    ],
+    "probable_locations": [
+      "Prague",
+      "Denmark",
+      "Prague",
+      "Denmark"
+    ],
+    "probable_time_periods": [
+      "Early 17th century (1546–1601)",
+      "Early 17th century (1546-1601)"
+    ],
+    "chapters": [
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        50.0874654,
+        14.4212535
+      ],
+      [
+        55.670249,
+        10.3333283
+      ]
+    ],
+    "specific_years": [
+      1573,
+      1573
+    ]
+  },
+  "Galileo Galilei": {
+    "aliases": [
+      "The father of modern observational astronomy"
+    ],
+    "probable_locations": [
+      "Italy",
+      "Prague",
+      "Italy",
+      "Prague"
+    ],
+    "probable_time_periods": [
+      "Late 16th century – Early 17th century",
+      "Late 16th century – Early 17th century"
+    ],
+    "chapters": [
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        41.8933203,
+        12.4829321
+      ],
+      [
+        50.0874654,
+        14.4212535
+      ]
+    ],
+    "specific_years": [
+      1600,
+      1600
+    ]
+  },
+  "Emperor Rudolph II": {
+    "aliases": [
+      "The Holy Roman Emperor"
+    ],
+    "probable_locations": [
+      "Prague"
+    ],
+    "probable_time_periods": [
+      "Late 16th century – Early 17th century (1552–1612)"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        50.0874654,
+        14.4212535
+      ]
+    ],
+    "specific_years": [
+      1582
+    ]
+  },
+  "Ursula Reinhold": {
+    "aliases": [
+      "Barber's sister"
+    ],
+    "probable_locations": [
+      "Kepler's hometown"
+    ],
+    "probable_time_periods": [
+      "Early 17th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.7501041,
+        8.8707147
+      ]
+    ],
+    "specific_years": [
+      1615
+    ]
+  },
+  "Sylvia Plath": {
+    "aliases": [
+      "Poet",
+      "Literary figure"
+    ],
+    "probable_locations": [
+      "United States",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century",
+      "20th century"
+    ],
+    "chapters": [
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ],
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950,
+      1950
+    ]
+  },
+  "Rachel Carson": {
+    "aliases": [
+      "Marine biologist",
+      "Writer",
+      "Environmentalist",
+      "Author of Silent Spring"
+    ],
+    "probable_locations": [
+      "United States",
+      "Southport Island",
+      "Silver Spring",
+      "Maryland",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century",
+      "Mid to Late 20th century",
+      "20th century"
+    ],
+    "chapters": [
+      1,
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ],
+      [
+        43.818215300000006,
+        -69.66649806724854
+      ],
+      [
+        38.9959461,
+        -77.0276231
+      ]
+    ],
+    "specific_years": [
+      1950,
+      1950,
+      1950
+    ]
+  },
+  "Lord Kelvin": {
+    "aliases": [
+      "Scientific figure",
+      "Physicist"
+    ],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Albert Einstein": {
+    "aliases": [
+      "Theoretical physicist",
+      "Scientist"
+    ],
+    "probable_locations": [
+      "Germany",
+      "Switzerland",
+      "Germany",
+      "Switzerland"
+    ],
+    "probable_time_periods": [
+      "Late 19th century – 20th century",
+      "Late 19th century – 20th century"
+    ],
+    "chapters": [
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        52.510885,
+        13.3989367
+      ],
+      [
+        46.7985624,
+        8.2319736
+      ]
+    ],
+    "specific_years": [
+      1890,
+      1890
+    ]
+  },
+  "William Herschel": {
+    "aliases": [
+      "Astronomer",
+      "Discoverer of Uranus"
+    ],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "18th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1750
+    ]
+  },
+  "Emily Dickinson": {
+    "aliases": [
+      "Poet",
+      "American poet",
+      "The Poet",
+      "Hermit of Amherst",
+      "The Poet"
+    ],
+    "probable_locations": [
+      "United States",
+      "United States",
+      "Amherst, Massachusetts",
+      "Homestead",
+      "Amherst, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century",
+      "19th century",
+      "19th century",
+      "19th century"
+    ],
+    "chapters": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ],
+      [
+        40.7127281,
+        -74.0060152
+      ],
+      [
+        42.3731948,
+        -72.5198761
+      ],
+      [
+        25.4718946,
+        -80.4759905
+      ]
+    ],
+    "specific_years": [
+      1850,
+      1850,
+      1850,
+      1850
+    ]
+  },
+  "Katherine Johnson": {
+    "aliases": [
+      "Mathematician",
+      "NASA scientist"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Peggy Peregrine": {
+    "aliases": [
+      "A woman interested in exploration"
+    ],
+    "probable_locations": [
+      "Not specified"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ]
+  },
+  "Ernest Shackleton": {
+    "aliases": [
+      "Polar explorer",
+      "Adventurer"
+    ],
+    "probable_locations": [
+      "Antarctica"
+    ],
+    "probable_time_periods": [
+      "Early 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        -77.8483347,
+        166.6683349
+      ]
+    ],
+    "specific_years": [
+      1905
+    ]
+  },
+  "Maria Mitchell": {
+    "aliases": [
+      "Miss Mitchell",
+      "American Urania",
+      "Astronomer"
+    ],
+    "probable_locations": [
+      "Nantucket, Massachusetts",
+      "Concord, Massachusetts",
+      "Nantucket, Massachusetts",
+      "Nantucket, Massachusetts",
+      "Vassar College, Poughkeepsie, New York"
+    ],
+    "probable_time_periods": [
+      "19th century (1818-1889)",
+      "19th century",
+      "19th century"
+    ],
+    "chapters": [
+      1,
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        41.2727997,
+        -70.0951867
+      ],
+      [
+        42.4605189,
+        -71.3488963
+      ],
+      [
+        41.2727997,
+        -70.0951867
+      ]
+    ],
+    "specific_years": [
+      1853,
+      1850,
+      1850
+    ]
+  },
+  "Ralph Waldo Emerson": {
+    "aliases": [
+      "Waldo"
+    ],
+    "probable_locations": [
+      "Concord, Massachusetts",
+      "Concord, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century (1803-1882)",
+      "19th century"
+    ],
+    "chapters": [
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        42.4605189,
+        -71.3488963
+      ],
+      [
+        42.4605189,
+        -71.3488963
+      ]
+    ],
+    "specific_years": [
+      1862,
+      1850
+    ]
+  },
+  "William Mitchell": {
+    "aliases": [],
+    "probable_locations": [
+      "Nantucket, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century (1796-1863)"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.2727997,
+        -70.0951867
+      ]
+    ],
+    "specific_years": [
+      1830
+    ]
+  },
+  "Lydia Mitchell": {
+    "aliases": [],
+    "probable_locations": [
+      "Nantucket, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.2727997,
+        -70.0951867
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Caroline Herschel": {
+    "aliases": [],
+    "probable_locations": [
+      "England"
+    ],
+    "probable_time_periods": [
+      "18th - 19th century (1750-1848)"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1799
+    ]
+  },
+  "Mark Twain": {
+    "aliases": [
+      "Samuel Clemens"
+    ],
+    "probable_locations": [
+      "Missouri"
+    ],
+    "probable_time_periods": [
+      "19th century (1835-1910)"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        38.7604815,
+        -92.5617875
+      ]
+    ],
+    "specific_years": [
+      1872
+    ]
+  },
+  "Frederick Douglass": {
+    "aliases": [
+      "Abolitionist",
+      "Former slave"
+    ],
+    "probable_locations": [
+      "Nantucket, Massachusetts",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.2727997,
+        -70.0951867
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "William Lloyd Garrison": {
+    "aliases": [
+      "Abolitionist leader"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Ida Russell": {
+    "aliases": [
+      "Possibly Maria's love"
+    ],
+    "probable_locations": [
+      "Milton, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.2501425,
+        -71.065573
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Margaret Fuller": {
+    "aliases": [
+      "Transcendentalist",
+      "Women's rights advocate",
+      "Reformer",
+      "Writer",
+      "Margaret Fuller Ossoli",
+      "Ossoli",
+      "Transcendentalist",
+      "Women’s rights advocate"
+    ],
+    "probable_locations": [
+      "Boston, Massachusetts",
+      "New York, United States",
+      "Europe",
+      "Rome, Italy",
+      "United States",
+      "United States",
+      "Italy"
+    ],
+    "probable_time_periods": [
+      "19th century",
+      "19th century",
+      "19th century (1810-1850)",
+      "1848",
+      "19th century",
+      "1810-1850"
+    ],
+    "chapters": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        42.3554334,
+        -71.060511
+      ],
+      [
+        40.757261400000004,
+        -73.98589982948505
+      ],
+      [
+        48.8534951,
+        2.3483915
+      ],
+      [
+        41.8933203,
+        12.4829321
+      ],
+      [
+        40.7127281,
+        -74.0060152
+      ],
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850,
+      1850,
+      1830,
+      1848,
+      1850,
+      1830
+    ]
+  },
+  "Nathaniel Hawthorne": {
+    "aliases": [
+      "Author",
+      "Novelist"
+    ],
+    "probable_locations": [
+      "Liverpool, England",
+      "Concord, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        53.4071991,
+        -2.99168
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Sophia Hawthorne": {
+    "aliases": [
+      "Sophia Peabody"
+    ],
+    "probable_locations": [
+      "Liverpool, England"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        53.4071991,
+        -2.99168
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Elizabeth Barrett Browning": {
+    "aliases": [
+      "Poet",
+      "Writer"
+    ],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Mary Somerville": {
+    "aliases": [
+      "Mathematician",
+      "Scientist",
+      "Mathematician",
+      "Scientist"
+    ],
+    "probable_locations": [
+      "United Kingdom",
+      "United Kingdom",
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century",
+      "19th century",
+      "19th century"
+    ],
+    "chapters": [
+      1,
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ],
+      [
+        51.4893335,
+        -0.14405508452768728
+      ],
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850,
+      1850,
+      1850
+    ]
+  },
+  "Alexander von Humboldt": {
+    "aliases": [
+      "Naturalist",
+      "Explorer"
+    ],
+    "probable_locations": [
+      "Germany",
+      "South America"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        52.510885,
+        13.3989367
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Harriet Hosmer": {
+    "aliases": [
+      "Sculptor"
+    ],
+    "probable_locations": [
+      "Rome, Italy"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.8933203,
+        12.4829321
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Thomas Harriot": {
+    "aliases": [
+      "Mathematician",
+      "Astronomer"
+    ],
+    "probable_locations": [
+      "England"
+    ],
+    "probable_time_periods": [
+      "17th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1650
+    ]
+  },
+  "Sophia Peabody": {
+    "aliases": [
+      "Hawthorne's wife",
+      "Artist",
+      "Peabody"
+    ],
+    "probable_locations": [
+      "United States",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century",
+      "19th century"
+    ],
+    "chapters": [
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ],
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850,
+      1850
+    ]
+  },
+  "Herman Melville": {
+    "aliases": [
+      "Author of Moby-Dick"
+    ],
+    "probable_locations": [
+      "Massachusetts",
+      "New York"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3788774,
+        -72.032366
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Elizabeth Peabody": {
+    "aliases": [
+      "Author",
+      "Educator",
+      "Elizabeth Barrett Browning's acquaintance"
+    ],
+    "probable_locations": [
+      "Boston, Massachusetts",
+      "United States",
+      "Boston, Massachusetts",
+      "United States",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century",
+      "19th century",
+      "19th century",
+      "19th century"
+    ],
+    "chapters": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        42.3554334,
+        -71.060511
+      ],
+      [
+        40.7127281,
+        -74.0060152
+      ],
+      [
+        42.3554334,
+        -71.060511
+      ],
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850,
+      1850,
+      1850,
+      1850
+    ]
+  },
+  "Nathaniel Hathorne": {
+    "aliases": [
+      "Nathaniel Hawthorne"
+    ],
+    "probable_locations": [
+      "Salem, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.5195292,
+        -70.8967226
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Vita Sackville-West": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Virginia Woolf": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "John Hathorne": {
+    "aliases": [],
+    "probable_locations": [
+      "Massachusetts"
+    ],
+    "probable_time_periods": [
+      "Late 17th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3788774,
+        -72.032366
+      ]
+    ],
+    "specific_years": [
+      1685
+    ]
+  },
+  "Archimedes": {
+    "aliases": [],
+    "probable_locations": [
+      "Syracuse, Sicily"
+    ],
+    "probable_time_periods": [
+      "Ancient Greece"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        37.0646139,
+        15.2907196
+      ]
+    ],
+    "specific_years": [
+      500
+    ]
+  },
+  "Janna Levin": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "21st century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      2006
+    ]
+  },
+  "Henry David Thoreau": {
+    "aliases": [],
+    "probable_locations": [
+      "Concord, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.4605189,
+        -71.3488963
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Charles Babbage": {
+    "aliases": [
+      "Inventor",
+      "Mathematician"
+    ],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Ada Lovelace": {
+    "aliases": [
+      "Ada Byron"
+    ],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "William King": {
+    "aliases": [
+      "Earl of Lovelace"
+    ],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Lord Byron": {
+    "aliases": [
+      "George Gordon Byron"
+    ],
+    "probable_locations": [
+      "United Kingdom",
+      "Greece"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Annabella Milbanke": {
+    "aliases": [
+      "Ada Lovelace's mother"
+    ],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Sir John Herschel": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Sir David Brewster": {
+    "aliases": [],
+    "probable_locations": [
+      "Scotland"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        56.7861112,
+        -4.1140518
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Maria Edgeworth": {
+    "aliases": [
+      "Author"
+    ],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Thomas Carlyle": {
+    "aliases": [],
+    "probable_locations": [
+      "Scotland"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        56.7861112,
+        -4.1140518
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "William Whewell": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "John Keats": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "James Freeman Clarke": {
+    "aliases": [],
+    "probable_locations": [
+      "Harvard Divinity School, United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3800711,
+        -71.11296973497915
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Anna Barker": {
+    "aliases": [],
+    "probable_locations": [
+      "New York, United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.757261400000004,
+        -73.98589982948505
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Emerson": {
+    "aliases": [
+      "Ralph Waldo Emerson"
+    ],
+    "probable_locations": [
+      "Concord, Massachusetts, United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.4605189,
+        -71.3488963
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Richard Feynman": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Arline": {
+    "aliases": [],
+    "probable_locations": [
+      "New York, United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.757261400000004,
+        -73.98589982948505
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Thomas Wentworth Higginson": {
+    "aliases": [
+      "Unitarian minister",
+      "women’s rights advocate",
+      "abolitionist",
+      "Fuller's biographer",
+      "Editor",
+      "Abolitionist"
+    ],
+    "probable_locations": [
+      "United States",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century",
+      "19th century"
+    ],
+    "chapters": [
+      1,
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ],
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850,
+      1850
+    ]
+  },
+  "Caroline Sturgis": {
+    "aliases": [
+      "Cary"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Samuel Ward": {
+    "aliases": [
+      "Sam"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Eliza Farrar": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Lydia Maria Child": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Sophia Ripley": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Bronson Alcott": {
+    "aliases": [
+      "Education reformer"
+    ],
+    "probable_locations": [
+      "Boston, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3554334,
+        -71.060511
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Lydian Emerson": {
+    "aliases": [
+      "Waldo's wife",
+      "Lydian"
+    ],
+    "probable_locations": [
+      "Concord, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.4605189,
+        -71.3488963
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Caroline Healey Dall": {
+    "aliases": [
+      "Caroline Healey"
+    ],
+    "probable_locations": [
+      "Boston, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3554334,
+        -71.060511
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Julia Ward Howe": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Mary Peabody": {
+    "aliases": [
+      "Mary Mann"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Sarah Margaret Fuller": {
+    "aliases": [
+      "Margaret Fuller"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Edgar Allan Poe": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Walt Whitman": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "James Nathan": {
+    "aliases": [
+      "Margaret Fuller’s nameless relation"
+    ],
+    "probable_locations": [
+      "New York, United States"
+    ],
+    "probable_time_periods": [
+      "Early 19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.757261400000004,
+        -73.98589982948505
+      ]
+    ],
+    "specific_years": [
+      1830
+    ]
+  },
+  "Rebecca Spring": {
+    "aliases": [
+      "Friend of Margaret Fuller"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Adam Mickiewicz": {
+    "aliases": [
+      "Poland's greatest poet",
+      "Revolutionary poet"
+    ],
+    "probable_locations": [
+      "Paris, France",
+      "Poland"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.8534951,
+        2.3483915
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "George Sand": {
+    "aliases": [
+      "Aurélie Dupin"
+    ],
+    "probable_locations": [
+      "Paris, France"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.8534951,
+        2.3483915
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Horace Greeley": {
+    "aliases": [
+      "Editor of the Tribune"
+    ],
+    "probable_locations": [
+      "New York, United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.757261400000004,
+        -73.98589982948505
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Michaelangelo": {
+    "aliases": [
+      "Sculptor"
+    ],
+    "probable_locations": [
+      "Italy"
+    ],
+    "probable_time_periods": [
+      "16th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.8933203,
+        12.4829321
+      ]
+    ],
+    "specific_years": [
+      1550
+    ]
+  },
+  "Frédéric Chopin": {
+    "aliases": [
+      "Composer"
+    ],
+    "probable_locations": [
+      "France",
+      "Poland"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.8534951,
+        2.3483915
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Matthew Vassar": {
+    "aliases": [
+      "Founder of Vassar College"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Giovanni Angelo Ossoli": {
+    "aliases": [
+      "Ossoli"
+    ],
+    "probable_locations": [
+      "Rome, Italy"
+    ],
+    "probable_time_periods": [
+      "19th century (1830s-1840s)"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.8933203,
+        12.4829321
+      ]
+    ],
+    "specific_years": [
+      1837
+    ]
+  },
+  "Thomas Hicks": {
+    "aliases": [
+      "Young American painter"
+    ],
+    "probable_locations": [
+      "Europe",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.8534951,
+        2.3483915
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Marcus Spring": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Waldo": {
+    "aliases": [
+      "Ralph Waldo Emerson"
+    ],
+    "probable_locations": [
+      "Massachusetts, United States",
+      "England"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3788774,
+        -72.032366
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "William Channing": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Margaret Fuller Ossoli": {
+    "aliases": [
+      "Margaret Fuller",
+      "Margherita Ossoli"
+    ],
+    "probable_locations": [
+      "Rome, Italy",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century (1810-1850)",
+      "1848"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.8933203,
+        12.4829321
+      ],
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1830,
+      1848
+    ]
+  },
+  "George Imlay": {
+    "aliases": [],
+    "probable_locations": [
+      "Paris, France"
+    ],
+    "probable_time_periods": [
+      "Late 18th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.8534951,
+        2.3483915
+      ]
+    ],
+    "specific_years": [
+      1780
+    ]
+  },
+  "Pope Pius IX": {
+    "aliases": [
+      "The Prophet of Liberty"
+    ],
+    "probable_locations": [
+      "Vatican City, Rome"
+    ],
+    "probable_time_periods": [
+      "19th century (1846-1878)"
+    ],
+    "chapters": [
+      1
+    ]
+  },
+  "Emelyn Story": {
+    "aliases": [
+      "Closest confidante"
+    ],
+    "probable_locations": [
+      "Rome, Italy"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.8933203,
+        12.4829321
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Angelo Eugene Philip Ossoli": {
+    "aliases": [
+      "Baby Nino"
+    ],
+    "probable_locations": [
+      "Rome, Italy",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.8933203,
+        12.4829321
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Captain Hasty": {
+    "aliases": [],
+    "probable_locations": [
+      "At sea, Gibraltar"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        36.13953945,
+        -5.3563234157972675
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Distant Pulsar": {
+    "aliases": [
+      "The New Jersey lighthouse"
+    ],
+    "probable_locations": [
+      "New Jersey"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.0757384,
+        -74.4041622
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Florence Nightingale": {
+    "aliases": [
+      "The Lady with the Lamp"
+    ],
+    "probable_locations": [
+      "London, United Kingdom",
+      "Florence, Italy"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Robert Browning": {
+    "aliases": [],
+    "probable_locations": [
+      "Italy",
+      "England"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.8933203,
+        12.4829321
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Mickiewicz": {
+    "aliases": [
+      "Adam Mickiewicz"
+    ],
+    "probable_locations": [
+      "Poland",
+      "Paris, France"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        52.215933,
+        19.134422
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "John Herschel": {
+    "aliases": [
+      "Astronomer",
+      "Caroline Herschel's nephew"
+    ],
+    "probable_locations": [
+      "England"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Charles Darwin": {
+    "aliases": [],
+    "probable_locations": [
+      "England"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Emma Darwin": {
+    "aliases": [],
+    "probable_locations": [
+      "England"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Annie Darwin": {
+    "aliases": [
+      "Charles's favorite daughter"
+    ],
+    "probable_locations": [
+      "England"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Dr. James Gully": {
+    "aliases": [],
+    "probable_locations": [
+      "Malvern, England"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        52.1109798,
+        -2.3285836
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Lord Tennyson": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Horace Mann": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Charles Dickens": {
+    "aliases": [],
+    "probable_locations": [
+      "England"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Henry Fox Talbot": {
+    "aliases": [
+      "Amateur inventor",
+      "Polymath"
+    ],
+    "probable_locations": [
+      "England"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Leonardo da Vinci": {
+    "aliases": [
+      "Artist",
+      "Inventor"
+    ],
+    "probable_locations": [
+      "Italy"
+    ],
+    "probable_time_periods": [
+      "Renaissance"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.8933203,
+        12.4829321
+      ]
+    ],
+    "specific_years": [
+      1500
+    ]
+  },
+  "Vermeer": {
+    "aliases": [],
+    "probable_locations": [
+      "Netherlands"
+    ],
+    "probable_time_periods": [
+      "17th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        52.2434979,
+        5.6343227
+      ]
+    ],
+    "specific_years": [
+      1650
+    ]
+  },
+  "Thomas Wedgwood": {
+    "aliases": [
+      "Potter",
+      "Chemistry experimenter"
+    ],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Erasmus Darwin": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "18th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1750
+    ]
+  },
+  "James Watt": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Humphry Davy": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Louis Daguerre": {
+    "aliases": [
+      "Inventor of the daguerreotype"
+    ],
+    "probable_locations": [
+      "France"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.8534951,
+        2.3483915
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Nicéphore Niépce": {
+    "aliases": [],
+    "probable_locations": [
+      "France"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.8534951,
+        2.3483915
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Hiram Powers": {
+    "aliases": [
+      "Sculptor"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "William Parsons": {
+    "aliases": [
+      "Third Earl of Rosse"
+    ],
+    "probable_locations": [
+      "Ireland"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        52.865196,
+        -7.9794599
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Annie Jump Cannon": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Williamina Fleming": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Henrietta Swan Leavitt": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Cecilia Payne": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Edward Charles Pickering": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Albert Southworth": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Josiah Hawes": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Sir Arthur Eddington": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Samuel Clemens": {
+    "aliases": [
+      "Mark Twain"
+    ],
+    "probable_locations": [
+      "Mississippi River, United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        37.3034933,
+        -89.5230357
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Helen Hosmer": {
+    "aliases": [],
+    "probable_locations": [
+      "Massachusetts, United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3788774,
+        -72.032366
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Dr. Hosmer": {
+    "aliases": [],
+    "probable_locations": [
+      "Massachusetts, United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3788774,
+        -72.032366
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Cornelia Carr": {
+    "aliases": [],
+    "probable_locations": [
+      "St. Louis, Missouri, United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        38.6280278,
+        -90.1910154
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Wayman Crow": {
+    "aliases": [
+      "Pater"
+    ],
+    "probable_locations": [
+      "St. Louis, Missouri, United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        38.6280278,
+        -90.1910154
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "John Gibson": {
+    "aliases": [],
+    "probable_locations": [
+      "Rome, Italy"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.8933203,
+        12.4829321
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Charlotte Cushman": {
+    "aliases": [],
+    "probable_locations": [
+      "United States",
+      "Europe"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Matilda Hays": {
+    "aliases": [],
+    "probable_locations": [
+      "United States",
+      "Europe"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Elizabeth Sedgwick": {
+    "aliases": [],
+    "probable_locations": [
+      "Lenox, Massachusetts, United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3568223,
+        -73.2850851
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Fanny Kemble": {
+    "aliases": [],
+    "probable_locations": [
+      "United States",
+      "England"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Alfred Lord Tennyson": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "John Adams Whipple": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Cornelia Dall": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Charles Sumner": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Harriet Beecher Stowe": {
+    "aliases": [
+      "Author of Uncle Tom's Cabin"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Lady Ashburton": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom",
+      "Italy"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Edmonia Lewis": {
+    "aliases": [
+      "The first African American woman artist of mainstream recognition"
+    ],
+    "probable_locations": [
+      "United States",
+      "Rome, Italy"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Jenny Lind": {
+    "aliases": [
+      "The Swedish Nightingale"
+    ],
+    "probable_locations": [
+      "Sweden",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        59.3251172,
+        18.0710935
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Louisa Ashburton": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "William C. North": {
+    "aliases": [
+      "Daguerrian Artist"
+    ],
+    "probable_locations": [
+      "Amherst, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3731948,
+        -72.5198761
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Susan Gilbert Dickinson": {
+    "aliases": [
+      "Emily's first love",
+      "Sue"
+    ],
+    "probable_locations": [
+      "Amherst, Massachusetts",
+      "Utica, New York"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3731948,
+        -72.5198761
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Austin Dickinson": {
+    "aliases": [
+      "Emily's brother"
+    ],
+    "probable_locations": [
+      "Amherst, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3731948,
+        -72.5198761
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Mary Lyon": {
+    "aliases": [
+      "Founder of Mount Holyoke"
+    ],
+    "probable_locations": [
+      "Mount Holyoke, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3009238,
+        -72.5878667
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Pythagoras": {
+    "aliases": [
+      "Philosopher",
+      "Mathematician"
+    ],
+    "probable_locations": [
+      "Samos, Greece",
+      "Croton, Italy"
+    ],
+    "probable_time_periods": [
+      "Ancient Greece"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        37.72461615,
+        26.819291891109838
+      ]
+    ],
+    "specific_years": [
+      500
+    ]
+  },
+  "Benjamin Newton": {
+    "aliases": [
+      "Emily's tutor"
+    ],
+    "probable_locations": [
+      "Amherst, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3731948,
+        -72.5198761
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "George Eliot": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Queen Victoria": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Anna Atkins": {
+    "aliases": [],
+    "probable_locations": [
+      "England"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Lyndall Gordon": {
+    "aliases": [
+      "Biographer of Dickinson"
+    ],
+    "probable_locations": [
+      "Not specified"
+    ],
+    "probable_time_periods": [
+      "Contemporary"
+    ],
+    "chapters": [
+      1
+    ]
+  },
+  "Dollie": {
+    "aliases": [
+      "Susan Gilbert Dickinson"
+    ],
+    "probable_locations": [
+      "Amherst, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3731948,
+        -72.5198761
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Samuel Bowles": {
+    "aliases": [
+      "Editor of Springfield Republican"
+    ],
+    "probable_locations": [
+      "Springfield, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.1018764,
+        -72.5886727
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Canova": {
+    "aliases": [
+      "Sculptor"
+    ],
+    "probable_locations": [
+      "Italy"
+    ],
+    "probable_time_periods": [
+      "Late 18th century – Early 19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.8933203,
+        12.4829321
+      ]
+    ],
+    "specific_years": [
+      1790
+    ]
+  },
+  "Kate Scott Anthon": {
+    "aliases": [
+      "Tommy",
+      "Thomas"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Maria Child": {
+    "aliases": [
+      "Abolitionist",
+      "Women's rights advocate"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Loo": {
+    "aliases": [],
+    "probable_locations": [
+      "Amherst, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3731948,
+        -72.5198761
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Helen Hunt Jackson": {
+    "aliases": [
+      "Helen Hunt"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "David Peck Todd": {
+    "aliases": [],
+    "probable_locations": [
+      "Amherst, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.3731948,
+        -72.5198761
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Mabel Loomis Todd": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Judge Otis Lord": {
+    "aliases": [
+      "Judge Lord"
+    ],
+    "probable_locations": [
+      "Salem",
+      "Homestead"
+    ],
+    "probable_time_periods": [
+      "Late 19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.5195292,
+        -70.8967226
+      ]
+    ],
+    "specific_years": [
+      1880
+    ]
+  },
+  "Gib": {
+    "aliases": [
+      "Gilbert",
+      "Austin and Susan's youngest child"
+    ],
+    "probable_locations": [
+      "Evergreens",
+      "Homestead"
+    ],
+    "probable_time_periods": [
+      "Late 19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        39.6361637,
+        -105.32145797867402
+      ]
+    ],
+    "specific_years": [
+      1880
+    ]
+  },
+  "Mabel": {
+    "aliases": [
+      "Mabel Loomis Todd"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "Late 19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1880
+    ]
+  },
+  "Susan Dickinson": {
+    "aliases": [
+      "Sue"
+    ],
+    "probable_locations": [
+      "Homestead",
+      "Evergreens"
+    ],
+    "probable_time_periods": [
+      "Late 19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        25.4718946,
+        -80.4759905
+      ]
+    ],
+    "specific_years": [
+      1880
+    ]
+  },
+  "Lavinia Dickinson": {
+    "aliases": [
+      "Vinnie"
+    ],
+    "probable_locations": [
+      "Homestead"
+    ],
+    "probable_time_periods": [
+      "Late 19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        25.4718946,
+        -80.4759905
+      ]
+    ],
+    "specific_years": [
+      1880
+    ]
+  },
+  "Alice James": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "Late 19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1880
+    ]
+  },
+  "Kierkegaard": {
+    "aliases": [],
+    "probable_locations": [
+      "Denmark"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        55.670249,
+        10.3333283
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Agnes Martin": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Hitchcock": {
+    "aliases": [
+      "Alfred Hitchcock"
+    ],
+    "probable_locations": [
+      "United States",
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Disraeli": {
+    "aliases": [
+      "Benjamin Disraeli"
+    ],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "David Todd": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Samuel Pierpont Langley": {
+    "aliases": [
+      "Aviation Pioneer"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Linda Morabito": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Heidi Hammel": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Annie Druyan": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Carl Sagan": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Professor Mary Scott Skinker": {
+    "aliases": [
+      "Miss Skinker"
+    ],
+    "probable_locations": [
+      "Pennsylvania College for Women",
+      "Baltimore",
+      "Woods Hole"
+    ],
+    "probable_time_periods": [
+      "1920s-1930s"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.447620799999996,
+        -79.92399540804678
+      ]
+    ],
+    "specific_years": [
+      1927
+    ]
+  },
+  "William Faulkner": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Robert": {
+    "aliases": [
+      "Rachel's brother"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "Early 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1905
+    ]
+  },
+  "Mrs. Carson": {
+    "aliases": [
+      "Maria Carson"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "S. M. Fuller": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Jane Goodall": {
+    "aliases": [
+      "None"
+    ],
+    "probable_locations": [
+      "Gombe, Tanzania"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        -4.6894086999999995,
+        29.63133397282713
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Hugo Benioff": {
+    "aliases": [
+      "None"
+    ],
+    "probable_locations": [
+      "Caltech, California, United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        34.13701375,
+        -118.12528833668254
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Marie Rodell": {
+    "aliases": [
+      "None"
+    ],
+    "probable_locations": [
+      "New York, United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.757261400000004,
+        -73.98589982948505
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Alice Roosevelt Longworth": {
+    "aliases": [
+      "None"
+    ],
+    "probable_locations": [
+      "Washington, D.C., United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        38.8950368,
+        -77.0365427
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Millicent Todd Bingham": {
+    "aliases": [
+      "None"
+    ],
+    "probable_locations": [
+      "Harvard, Massachusetts, United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.365743249999994,
+        -71.12221394207614
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Mary Scott Skinker": {
+    "aliases": [
+      "None"
+    ],
+    "probable_locations": [
+      "Chicago, Illinois, United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.8755616,
+        -87.6244212
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Edwin Teale": {
+    "aliases": [
+      "None"
+    ],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Sylvia Earl": {
+    "aliases": [
+      "None"
+    ],
+    "probable_locations": [
+      "Indian Ocean"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        3.7203503,
+        73.2244152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Theodore Roosevelt": {
+    "aliases": [
+      "None"
+    ],
+    "probable_locations": [
+      "Washington, D.C., United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        38.8950368,
+        -77.0365427
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Dorothy Freeman": {
+    "aliases": [],
+    "probable_locations": [
+      "United States",
+      "Maine"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Marianne Moore": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Henry Beston": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "E. B. White": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Stanley Freeman": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Lise Meitner": {
+    "aliases": [],
+    "probable_locations": [
+      "Vienna, Austria",
+      "Berlin, Germany",
+      "Nobel Institute for Physics, Sweden"
+    ],
+    "probable_time_periods": [
+      "Early 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.2083537,
+        16.3725042
+      ]
+    ],
+    "specific_years": [
+      1905
+    ]
+  },
+  "Ludwig Boltzmann": {
+    "aliases": [],
+    "probable_locations": [
+      "Vienna, Austria"
+    ],
+    "probable_time_periods": [
+      "Late 19th century to early 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.2083537,
+        16.3725042
+      ]
+    ],
+    "specific_years": [
+      1895
+    ]
+  },
+  "Otto Hahn": {
+    "aliases": [],
+    "probable_locations": [
+      "Berlin, Germany"
+    ],
+    "probable_time_periods": [
+      "Early to mid 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        52.510885,
+        13.3989367
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Fritz Strassmann": {
+    "aliases": [],
+    "probable_locations": [
+      "Berlin, Germany"
+    ],
+    "probable_time_periods": [
+      "Early to mid 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        52.510885,
+        13.3989367
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "James Chadwick": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "Early to mid 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Enrico Fermi": {
+    "aliases": [],
+    "probable_locations": [
+      "Italy",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "Early 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        41.8933203,
+        12.4829321
+      ]
+    ],
+    "specific_years": [
+      1905
+    ]
+  },
+  "Niels Bohr": {
+    "aliases": [],
+    "probable_locations": [
+      "Copenhagen, Denmark"
+    ],
+    "probable_time_periods": [
+      "Early to mid 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        55.6867243,
+        12.5700724
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Otto Frisch": {
+    "aliases": [],
+    "probable_locations": [
+      "Copenhagen, Denmark"
+    ],
+    "probable_time_periods": [
+      "Early to mid 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        55.6867243,
+        12.5700724
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Marie Curie": {
+    "aliases": [],
+    "probable_locations": [
+      "France",
+      "Poland"
+    ],
+    "probable_time_periods": [
+      "Late 19th to early 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.8534951,
+        2.3483915
+      ]
+    ],
+    "specific_years": [
+      1900
+    ]
+  },
+  "Adrienne Rich": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Dorothy": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "Mid 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Marjorie Spock": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "Mid 20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "John F. Kennedy": {
+    "aliases": [
+      "President Kennedy"
+    ],
+    "probable_locations": [
+      "Washington, D.C."
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        38.8950368,
+        -77.0365427
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Frances Oldham Kelsey": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Robert H. White-Stevens": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Orville Freeman": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Albert Schweitzer": {
+    "aliases": [],
+    "probable_locations": [
+      "France",
+      "Germany"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        48.8534951,
+        2.3483915
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Lord Shackleton": {
+    "aliases": [],
+    "probable_locations": [
+      "United Kingdom"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        51.4893335,
+        -0.14405508452768728
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Thomas Merton": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Bob Hines": {
+    "aliases": [],
+    "probable_locations": [
+      "Silver Spring",
+      "Maryland"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        38.9959461,
+        -77.0276231
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "John Muir": {
+    "aliases": [],
+    "probable_locations": [
+      "California"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        36.7014631,
+        -118.755997
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "David Brower": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "President John F. Kennedy": {
+    "aliases": [
+      "President Kennedy"
+    ],
+    "probable_locations": [
+      "Washington, D.C.",
+      "Dallas, Texas"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        38.8950368,
+        -77.0365427
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Lyndon B. Johnson": {
+    "aliases": [],
+    "probable_locations": [
+      "Washington, D.C."
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        38.8950368,
+        -77.0365427
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Leonard Bernstein": {
+    "aliases": [],
+    "probable_locations": [
+      "New York",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.757261400000004,
+        -73.98589982948505
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Pablo Casals": {
+    "aliases": [],
+    "probable_locations": [
+      "Spain",
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.4167047,
+        -3.7035825
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Reverend Dr. Duncan Howlett": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Robert Carson": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Roger": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "20th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1950
+    ]
+  },
+  "Nino": {
+    "aliases": [
+      "Angelo Ossoli"
+    ],
+    "probable_locations": [
+      "New York",
+      "Italy"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.757261400000004,
+        -73.98589982948505
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Davis": {
+    "aliases": [
+      "First mate"
+    ],
+    "probable_locations": [
+      "At sea, New Jersey"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        39.1765386,
+        -74.8012119
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Waldo Emerson": {
+    "aliases": [
+      "Ralph Waldo Emerson"
+    ],
+    "probable_locations": [
+      "Concord, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.4605189,
+        -71.3488963
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Henry Thoreau": {
+    "aliases": [
+      "Henry David Thoreau"
+    ],
+    "probable_locations": [
+      "Concord, Massachusetts"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        42.4605189,
+        -71.3488963
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  },
+  "Bayard Taylor": {
+    "aliases": [],
+    "probable_locations": [
+      "United States"
+    ],
+    "probable_time_periods": [
+      "19th century"
+    ],
+    "chapters": [
+      1
+    ],
+    "coordinates": [
+      [
+        40.7127281,
+        -74.0060152
+      ]
+    ],
+    "specific_years": [
+      1850
+    ]
+  }
+}
